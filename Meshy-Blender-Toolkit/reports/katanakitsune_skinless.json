@@ -1,0 +1,3071 @@
+{
+  "library": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/assets/animations/Mixamo",
+  "threshold_deg": 8.0,
+  "clips": [
+    {
+      "query": "Catwalk Twist R To Twist L.fbx",
+      "query_frames": 65,
+      "query_skinned": true,
+      "query_travel": 0.365,
+      "candidates": [
+        {
+          "id": "02_Walking_and_Running/Catwalk Idle To Twist R.fbx",
+          "name": "Catwalk Idle To Twist R",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 8.45,
+          "mirrored": true,
+          "lib_frames": 65,
+          "lib_range": [
+            1,
+            65
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Catwalk Idle To Twist L.fbx",
+          "name": "Catwalk Idle To Twist L",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 8.92,
+          "mirrored": false,
+          "lib_frames": 53,
+          "lib_range": [
+            0,
+            53
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Catwalk Idle To Twist L.fbx",
+          "name": "Catwalk Idle To Twist L",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 10.42,
+          "mirrored": true,
+          "lib_frames": 53,
+          "lib_range": [
+            13,
+            53
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Catwalk Idle To Twist R.fbx",
+          "name": "Catwalk Idle To Twist R",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 10.68,
+          "mirrored": false,
+          "lib_frames": 65,
+          "lib_range": [
+            17,
+            65
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Catwalk Walk Stop Twist L.fbx",
+          "name": "Catwalk Walk Stop Twist L",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 10.94,
+          "mirrored": false,
+          "lib_frames": 75,
+          "lib_range": [
+            18,
+            73
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "no_skinless_match",
+      "copied_skinned": true,
+      "output": "SwitchDirectionIdle.fbx"
+    },
+    {
+      "query": "Draw A Great Sword 2.fbx",
+      "query_frames": 24,
+      "query_skinned": true,
+      "query_travel": 0.13,
+      "candidates": [
+        {
+          "id": "05_Combat_Melee_Weapons/Draw A Great Sword 2.fbx",
+          "name": "Draw A Great Sword 2",
+          "group": "05_Combat_Melee_Weapons",
+          "kind": "file",
+          "deg": 5.49,
+          "mirrored": false,
+          "lib_frames": 24,
+          "lib_range": [
+            0,
+            24
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::draw a great sword 2.fbx",
+          "name": "draw a great sword 2",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 5.52,
+          "mirrored": false,
+          "lib_frames": 23,
+          "lib_range": [
+            0,
+            23
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword blocking (3).fbx",
+          "name": "great sword blocking (3)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 17.17,
+          "mirrored": false,
+          "lib_frames": 15,
+          "lib_range": [
+            1,
+            15
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword jump (2).fbx",
+          "name": "great sword jump (2)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 17.31,
+          "mirrored": false,
+          "lib_frames": 27,
+          "lib_range": [
+            1,
+            21
+          ],
+          "same_name": false
+        },
+        {
+          "id": "05_Combat_Melee_Weapons/Great Sword Jump.fbx",
+          "name": "Great Sword Jump",
+          "group": "05_Combat_Melee_Weapons",
+          "kind": "file",
+          "deg": 17.33,
+          "mirrored": false,
+          "lib_frames": 27,
+          "lib_range": [
+            1,
+            21
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "05_Combat_Melee_Weapons/Draw A Great Sword 2.fbx",
+        "name": "Draw A Great Sword 2",
+        "group": "05_Combat_Melee_Weapons",
+        "kind": "file",
+        "deg": 5.49,
+        "mirrored": false,
+        "lib_frames": 24,
+        "lib_range": [
+          0,
+          24
+        ],
+        "same_name": true
+      },
+      "output": "KatanaDraw.fbx"
+    },
+    {
+      "query": "Fast Run.fbx",
+      "query_frames": 16,
+      "query_skinned": true,
+      "query_travel": 0.067,
+      "candidates": [
+        {
+          "id": "02_Walking_and_Running/Standard Run.fbx",
+          "name": "Standard Run",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 18.73,
+          "mirrored": false,
+          "lib_frames": 22,
+          "lib_range": [
+            0,
+            22
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Male Locomotion Pack (1).zip::standard run.fbx",
+          "name": "standard run",
+          "group": "Male Locomotion Pack (1) (zip)",
+          "kind": "zip",
+          "deg": 18.75,
+          "mirrored": false,
+          "lib_frames": 22,
+          "lib_range": [
+            0,
+            22
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Male Locomotion Pack.zip::standard run.fbx",
+          "name": "standard run",
+          "group": "Male Locomotion Pack (zip)",
+          "kind": "zip",
+          "deg": 18.75,
+          "mirrored": false,
+          "lib_frames": 22,
+          "lib_range": [
+            0,
+            22
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Run Forward.fbx",
+          "name": "Run Forward",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 19.69,
+          "mirrored": false,
+          "lib_frames": 18,
+          "lib_range": [
+            0,
+            18
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Medium Run.fbx",
+          "name": "Medium Run",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 20.48,
+          "mirrored": false,
+          "lib_frames": 17,
+          "lib_range": [
+            0,
+            16
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "no_skinless_match",
+      "copied_skinned": true,
+      "output": "FastRun.fbx"
+    },
+    {
+      "query": "Flair.fbx",
+      "query_frames": 30,
+      "query_skinned": true,
+      "query_travel": 0.471,
+      "candidates": [
+        {
+          "id": "08_Dance_and_Performance/Flair.fbx",
+          "name": "Flair",
+          "group": "08_Dance_and_Performance",
+          "kind": "file",
+          "deg": 5.65,
+          "mirrored": false,
+          "lib_frames": 30,
+          "lib_range": [
+            0,
+            30
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Breakdance Pack.zip::flair (2).fbx",
+          "name": "flair (2)",
+          "group": "Breakdance Pack (zip)",
+          "kind": "zip",
+          "deg": 5.82,
+          "mirrored": false,
+          "lib_frames": 30,
+          "lib_range": [
+            0,
+            30
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Breakdance Pack.zip::breakdance footwork to idle (2).fbx",
+          "name": "breakdance footwork to idle (2)",
+          "group": "Breakdance Pack (zip)",
+          "kind": "zip",
+          "deg": 45.74,
+          "mirrored": false,
+          "lib_frames": 288,
+          "lib_range": [
+            0,
+            46
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Breakdance Pack.zip::breakdance footwork to freeze.fbx",
+          "name": "breakdance footwork to freeze",
+          "group": "Breakdance Pack (zip)",
+          "kind": "zip",
+          "deg": 46.87,
+          "mirrored": false,
+          "lib_frames": 110,
+          "lib_range": [
+            1,
+            34
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Breakdance Pack.zip::breakdance footwork 1.fbx",
+          "name": "breakdance footwork 1",
+          "group": "Breakdance Pack (zip)",
+          "kind": "zip",
+          "deg": 48.78,
+          "mirrored": false,
+          "lib_frames": 95,
+          "lib_range": [
+            0,
+            40
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "08_Dance_and_Performance/Flair.fbx",
+        "name": "Flair",
+        "group": "08_Dance_and_Performance",
+        "kind": "file",
+        "deg": 5.65,
+        "mirrored": false,
+        "lib_frames": 30,
+        "lib_range": [
+          0,
+          30
+        ],
+        "same_name": true
+      },
+      "output": "Flair.fbx"
+    },
+    {
+      "query": "Great Sword Blocking.fbx",
+      "query_frames": 15,
+      "query_skinned": true,
+      "query_travel": 0.138,
+      "candidates": [
+        {
+          "id": "05_Combat_Melee_Weapons/Great Sword Blocking.fbx",
+          "name": "Great Sword Blocking",
+          "group": "05_Combat_Melee_Weapons",
+          "kind": "file",
+          "deg": 5.66,
+          "mirrored": false,
+          "lib_frames": 15,
+          "lib_range": [
+            0,
+            14
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword blocking.fbx",
+          "name": "great sword blocking",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 5.8,
+          "mirrored": false,
+          "lib_frames": 15,
+          "lib_range": [
+            0,
+            14
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword blocking (2).fbx",
+          "name": "great sword blocking (2)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 15.41,
+          "mirrored": false,
+          "lib_frames": 29,
+          "lib_range": [
+            0,
+            7
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword impact.fbx",
+          "name": "great sword impact",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 15.76,
+          "mirrored": false,
+          "lib_frames": 26,
+          "lib_range": [
+            1,
+            21
+          ],
+          "same_name": false
+        },
+        {
+          "id": "05_Combat_Melee_Weapons/Great Sword Impact.fbx",
+          "name": "Great Sword Impact",
+          "group": "05_Combat_Melee_Weapons",
+          "kind": "file",
+          "deg": 16.44,
+          "mirrored": false,
+          "lib_frames": 26,
+          "lib_range": [
+            1,
+            21
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "05_Combat_Melee_Weapons/Great Sword Blocking.fbx",
+        "name": "Great Sword Blocking",
+        "group": "05_Combat_Melee_Weapons",
+        "kind": "file",
+        "deg": 5.66,
+        "mirrored": false,
+        "lib_frames": 15,
+        "lib_range": [
+          0,
+          14
+        ],
+        "same_name": true
+      },
+      "output": "KatanaBlock.fbx"
+    },
+    {
+      "query": "Great Sword Casting.fbx",
+      "query_frames": 144,
+      "query_skinned": true,
+      "query_travel": 0.395,
+      "candidates": [
+        {
+          "id": "05_Combat_Melee_Weapons/Great Sword Casting.fbx",
+          "name": "Great Sword Casting",
+          "group": "05_Combat_Melee_Weapons",
+          "kind": "file",
+          "deg": 5.74,
+          "mirrored": false,
+          "lib_frames": 144,
+          "lib_range": [
+            0,
+            144
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword casting.fbx",
+          "name": "great sword casting",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 5.98,
+          "mirrored": false,
+          "lib_frames": 144,
+          "lib_range": [
+            0,
+            144
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword casting.fbx",
+          "name": "great sword casting",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 28.08,
+          "mirrored": true,
+          "lib_frames": 144,
+          "lib_range": [
+            0,
+            144
+          ],
+          "same_name": true
+        },
+        {
+          "id": "05_Combat_Melee_Weapons/Great Sword Casting.fbx",
+          "name": "Great Sword Casting",
+          "group": "05_Combat_Melee_Weapons",
+          "kind": "file",
+          "deg": 28.11,
+          "mirrored": true,
+          "lib_frames": 144,
+          "lib_range": [
+            0,
+            144
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword slash.fbx",
+          "name": "great sword slash",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 30.21,
+          "mirrored": false,
+          "lib_frames": 38,
+          "lib_range": [
+            0,
+            38
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "05_Combat_Melee_Weapons/Great Sword Casting.fbx",
+        "name": "Great Sword Casting",
+        "group": "05_Combat_Melee_Weapons",
+        "kind": "file",
+        "deg": 5.74,
+        "mirrored": false,
+        "lib_frames": 144,
+        "lib_range": [
+          0,
+          144
+        ],
+        "same_name": true
+      },
+      "output": "KatanaChargeAttack.fbx"
+    },
+    {
+      "query": "Great Sword Crouching.fbx",
+      "query_frames": 14,
+      "query_skinned": true,
+      "query_travel": 0.082,
+      "candidates": [
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword crouching (6).fbx",
+          "name": "great sword crouching (6)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 6.61,
+          "mirrored": false,
+          "lib_frames": 14,
+          "lib_range": [
+            0,
+            14
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword crouching (3).fbx",
+          "name": "great sword crouching (3)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 11.71,
+          "mirrored": false,
+          "lib_frames": 55,
+          "lib_range": [
+            0,
+            5
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword crouching (4).fbx",
+          "name": "great sword crouching (4)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 12.32,
+          "mirrored": false,
+          "lib_frames": 11,
+          "lib_range": [
+            3,
+            11
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword impact (4).fbx",
+          "name": "great sword impact (4)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 12.39,
+          "mirrored": false,
+          "lib_frames": 20,
+          "lib_range": [
+            5,
+            20
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword crouching (5).fbx",
+          "name": "great sword crouching (5)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 13.69,
+          "mirrored": false,
+          "lib_frames": 42,
+          "lib_range": [
+            19,
+            41
+          ],
+          "same_name": true
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword crouching (6).fbx",
+        "name": "great sword crouching (6)",
+        "group": "Great Sword Pack (zip)",
+        "kind": "zip",
+        "deg": 6.61,
+        "mirrored": false,
+        "lib_frames": 14,
+        "lib_range": [
+          0,
+          14
+        ],
+        "same_name": true
+      },
+      "output": "KatanaBlockCrouched.fbx"
+    },
+    {
+      "query": "Great Sword Idle.fbx",
+      "query_frames": 60,
+      "query_skinned": true,
+      "query_travel": 0.024,
+      "candidates": [
+        {
+          "id": "05_Combat_Melee_Weapons/Great Sword Idle.fbx",
+          "name": "Great Sword Idle",
+          "group": "05_Combat_Melee_Weapons",
+          "kind": "file",
+          "deg": 5.46,
+          "mirrored": false,
+          "lib_frames": 60,
+          "lib_range": [
+            0,
+            60
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword idle.fbx",
+          "name": "great sword idle",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 5.47,
+          "mirrored": false,
+          "lib_frames": 60,
+          "lib_range": [
+            0,
+            60
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword idle (2).fbx",
+          "name": "great sword idle (2)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 7.73,
+          "mirrored": false,
+          "lib_frames": 87,
+          "lib_range": [
+            53,
+            83
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword idle (3).fbx",
+          "name": "great sword idle (3)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 8.21,
+          "mirrored": false,
+          "lib_frames": 108,
+          "lib_range": [
+            86,
+            108
+          ],
+          "same_name": true
+        },
+        {
+          "id": "05_Combat_Melee_Weapons/Great Sword Power Up.fbx",
+          "name": "Great Sword Power Up",
+          "group": "05_Combat_Melee_Weapons",
+          "kind": "file",
+          "deg": 9.89,
+          "mirrored": false,
+          "lib_frames": 105,
+          "lib_range": [
+            82,
+            105
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "05_Combat_Melee_Weapons/Great Sword Idle.fbx",
+        "name": "Great Sword Idle",
+        "group": "05_Combat_Melee_Weapons",
+        "kind": "file",
+        "deg": 5.46,
+        "mirrored": false,
+        "lib_frames": 60,
+        "lib_range": [
+          0,
+          60
+        ],
+        "same_name": true
+      },
+      "output": "KatanaIdle.fbx"
+    },
+    {
+      "query": "Great Sword Jump.fbx",
+      "query_frames": 27,
+      "query_skinned": true,
+      "query_travel": 0.097,
+      "candidates": [
+        {
+          "id": "05_Combat_Melee_Weapons/Great Sword Jump.fbx",
+          "name": "Great Sword Jump",
+          "group": "05_Combat_Melee_Weapons",
+          "kind": "file",
+          "deg": 5.67,
+          "mirrored": false,
+          "lib_frames": 27,
+          "lib_range": [
+            0,
+            27
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword jump (2).fbx",
+          "name": "great sword jump (2)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 5.7,
+          "mirrored": false,
+          "lib_frames": 27,
+          "lib_range": [
+            0,
+            27
+          ],
+          "same_name": true
+        },
+        {
+          "id": "05_Combat_Melee_Weapons/Great Sword Idle.fbx",
+          "name": "Great Sword Idle",
+          "group": "05_Combat_Melee_Weapons",
+          "kind": "file",
+          "deg": 14.2,
+          "mirrored": false,
+          "lib_frames": 60,
+          "lib_range": [
+            43,
+            56
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword idle.fbx",
+          "name": "great sword idle",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 14.21,
+          "mirrored": false,
+          "lib_frames": 60,
+          "lib_range": [
+            43,
+            57
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword idle (2).fbx",
+          "name": "great sword idle (2)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 14.23,
+          "mirrored": false,
+          "lib_frames": 87,
+          "lib_range": [
+            57,
+            70
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "05_Combat_Melee_Weapons/Great Sword Jump.fbx",
+        "name": "Great Sword Jump",
+        "group": "05_Combat_Melee_Weapons",
+        "kind": "file",
+        "deg": 5.67,
+        "mirrored": false,
+        "lib_frames": 27,
+        "lib_range": [
+          0,
+          27
+        ],
+        "same_name": true
+      },
+      "output": "KatanaJump.fbx"
+    },
+    {
+      "query": "Great Sword Kick.fbx",
+      "query_frames": 45,
+      "query_skinned": true,
+      "query_travel": 0.462,
+      "candidates": [
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword kick.fbx",
+          "name": "great sword kick",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 5.64,
+          "mirrored": false,
+          "lib_frames": 45,
+          "lib_range": [
+            0,
+            45
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword slash (3).fbx",
+          "name": "great sword slash (3)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 36.28,
+          "mirrored": false,
+          "lib_frames": 55,
+          "lib_range": [
+            0,
+            54
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword slash.fbx",
+          "name": "great sword slash",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 36.9,
+          "mirrored": false,
+          "lib_frames": 38,
+          "lib_range": [
+            1,
+            37
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Soccer Game Pack.zip::goalkeeper overhand throw.fbx",
+          "name": "goalkeeper overhand throw",
+          "group": "Soccer Game Pack (zip)",
+          "kind": "zip",
+          "deg": 39.12,
+          "mirrored": true,
+          "lib_frames": 85,
+          "lib_range": [
+            0,
+            65
+          ],
+          "same_name": false
+        },
+        {
+          "id": "09_Sports_and_Fitness/Goalkeeper Overhand Throw.fbx",
+          "name": "Goalkeeper Overhand Throw",
+          "group": "09_Sports_and_Fitness",
+          "kind": "file",
+          "deg": 39.25,
+          "mirrored": true,
+          "lib_frames": 85,
+          "lib_range": [
+            0,
+            66
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword kick.fbx",
+        "name": "great sword kick",
+        "group": "Great Sword Pack (zip)",
+        "kind": "zip",
+        "deg": 5.64,
+        "mirrored": false,
+        "lib_frames": 45,
+        "lib_range": [
+          0,
+          45
+        ],
+        "same_name": true
+      },
+      "output": "KatanaKick.fbx"
+    },
+    {
+      "query": "Great Sword Run.fbx",
+      "query_frames": 18,
+      "query_skinned": true,
+      "query_travel": 0.074,
+      "candidates": [
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword run (2).fbx",
+          "name": "great sword run (2)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 5.66,
+          "mirrored": false,
+          "lib_frames": 18,
+          "lib_range": [
+            0,
+            18
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Lite Rifle Pack.zip::run forward.fbx",
+          "name": "run forward",
+          "group": "Lite Rifle Pack (zip)",
+          "kind": "zip",
+          "deg": 26.94,
+          "mirrored": false,
+          "lib_frames": 15,
+          "lib_range": [
+            0,
+            14
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Pro Rifle Pack.zip::run forward.fbx",
+          "name": "run forward",
+          "group": "Pro Rifle Pack (zip)",
+          "kind": "zip",
+          "deg": 26.94,
+          "mirrored": false,
+          "lib_frames": 15,
+          "lib_range": [
+            0,
+            14
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Rifle 8-Way Locomotion Pack.zip::run forward.fbx",
+          "name": "run forward",
+          "group": "Rifle 8-Way Locomotion Pack (zip)",
+          "kind": "zip",
+          "deg": 26.94,
+          "mirrored": false,
+          "lib_frames": 15,
+          "lib_range": [
+            0,
+            14
+          ],
+          "same_name": false
+        },
+        {
+          "id": "03_Jumps_Falls_and_Acrobatics/Standing Jump Running.fbx",
+          "name": "Standing Jump Running",
+          "group": "03_Jumps_Falls_and_Acrobatics",
+          "kind": "file",
+          "deg": 27.5,
+          "mirrored": false,
+          "lib_frames": 32,
+          "lib_range": [
+            3,
+            20
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword run (2).fbx",
+        "name": "great sword run (2)",
+        "group": "Great Sword Pack (zip)",
+        "kind": "zip",
+        "deg": 5.66,
+        "mirrored": false,
+        "lib_frames": 18,
+        "lib_range": [
+          0,
+          18
+        ],
+        "same_name": true
+      },
+      "output": "KatanaRun.fbx"
+    },
+    {
+      "query": "Great Sword Slash (1).fbx",
+      "query_frames": 43,
+      "query_skinned": true,
+      "query_travel": 0.674,
+      "candidates": [
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword slash (5).fbx",
+          "name": "great sword slash (5)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 6.22,
+          "mirrored": false,
+          "lib_frames": 43,
+          "lib_range": [
+            0,
+            43
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword crouching.fbx",
+          "name": "great sword crouching",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 18.99,
+          "mirrored": false,
+          "lib_frames": 20,
+          "lib_range": [
+            1,
+            19
+          ],
+          "same_name": false
+        },
+        {
+          "id": "05_Combat_Melee_Weapons/Great Sword Crouching.fbx",
+          "name": "Great Sword Crouching",
+          "group": "05_Combat_Melee_Weapons",
+          "kind": "file",
+          "deg": 19.27,
+          "mirrored": false,
+          "lib_frames": 20,
+          "lib_range": [
+            1,
+            19
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword crouching (2).fbx",
+          "name": "great sword crouching (2)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 25.95,
+          "mirrored": false,
+          "lib_frames": 21,
+          "lib_range": [
+            0,
+            20
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Crouch Running.fbx",
+          "name": "Crouch Running",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 31.87,
+          "mirrored": false,
+          "lib_frames": 34,
+          "lib_range": [
+            5,
+            33
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword slash (5).fbx",
+        "name": "great sword slash (5)",
+        "group": "Great Sword Pack (zip)",
+        "kind": "zip",
+        "deg": 6.22,
+        "mirrored": false,
+        "lib_frames": 43,
+        "lib_range": [
+          0,
+          43
+        ],
+        "same_name": true
+      },
+      "output": "KatanaSlashCrouched.fbx"
+    },
+    {
+      "query": "Great Sword Slash (2).fbx",
+      "query_frames": 54,
+      "query_skinned": true,
+      "query_travel": 1.115,
+      "candidates": [
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword slash (4).fbx",
+          "name": "great sword slash (4)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 6.04,
+          "mirrored": false,
+          "lib_frames": 54,
+          "lib_range": [
+            0,
+            54
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword slash (2).fbx",
+          "name": "great sword slash (2)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 27.88,
+          "mirrored": false,
+          "lib_frames": 106,
+          "lib_range": [
+            56,
+            106
+          ],
+          "same_name": true
+        },
+        {
+          "id": "05_Combat_Melee_Weapons/Great Sword Slash.fbx",
+          "name": "Great Sword Slash",
+          "group": "05_Combat_Melee_Weapons",
+          "kind": "file",
+          "deg": 27.93,
+          "mirrored": false,
+          "lib_frames": 106,
+          "lib_range": [
+            56,
+            106
+          ],
+          "same_name": true
+        },
+        {
+          "id": "06_Combat_Ranged_Weapons/Rifle Punch.fbx",
+          "name": "Rifle Punch",
+          "group": "06_Combat_Ranged_Weapons",
+          "kind": "file",
+          "deg": 31.78,
+          "mirrored": true,
+          "lib_frames": 83,
+          "lib_range": [
+            1,
+            69
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword slash.fbx",
+          "name": "great sword slash",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 34.36,
+          "mirrored": false,
+          "lib_frames": 38,
+          "lib_range": [
+            0,
+            38
+          ],
+          "same_name": true
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword slash (4).fbx",
+        "name": "great sword slash (4)",
+        "group": "Great Sword Pack (zip)",
+        "kind": "zip",
+        "deg": 6.04,
+        "mirrored": false,
+        "lib_frames": 54,
+        "lib_range": [
+          0,
+          54
+        ],
+        "same_name": true
+      },
+      "output": "KatanaCounterSlash.fbx"
+    },
+    {
+      "query": "Great Sword Slash.fbx",
+      "query_frames": 55,
+      "query_skinned": true,
+      "query_travel": 0.749,
+      "candidates": [
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword slash (3).fbx",
+          "name": "great sword slash (3)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 5.81,
+          "mirrored": false,
+          "lib_frames": 55,
+          "lib_range": [
+            0,
+            55
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword slash.fbx",
+          "name": "great sword slash",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 32.16,
+          "mirrored": true,
+          "lib_frames": 38,
+          "lib_range": [
+            0,
+            38
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword slash.fbx",
+          "name": "great sword slash",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 33.09,
+          "mirrored": false,
+          "lib_frames": 38,
+          "lib_range": [
+            1,
+            38
+          ],
+          "same_name": true
+        },
+        {
+          "id": "06_Combat_Ranged_Weapons/Rifle Punch.fbx",
+          "name": "Rifle Punch",
+          "group": "06_Combat_Ranged_Weapons",
+          "kind": "file",
+          "deg": 34.46,
+          "mirrored": false,
+          "lib_frames": 83,
+          "lib_range": [
+            0,
+            83
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword slash (4).fbx",
+          "name": "great sword slash (4)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 35.95,
+          "mirrored": false,
+          "lib_frames": 54,
+          "lib_range": [
+            0,
+            52
+          ],
+          "same_name": true
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword slash (3).fbx",
+        "name": "great sword slash (3)",
+        "group": "Great Sword Pack (zip)",
+        "kind": "zip",
+        "deg": 5.81,
+        "mirrored": false,
+        "lib_frames": 55,
+        "lib_range": [
+          0,
+          55
+        ],
+        "same_name": true
+      },
+      "output": "KatanaSlashMid.fbx"
+    },
+    {
+      "query": "Great Sword Walk.fbx",
+      "query_frames": 41,
+      "query_skinned": true,
+      "query_travel": 0.125,
+      "candidates": [
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword walk.fbx",
+          "name": "great sword walk",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 5.52,
+          "mirrored": false,
+          "lib_frames": 41,
+          "lib_range": [
+            0,
+            41
+          ],
+          "same_name": true
+        },
+        {
+          "id": "05_Combat_Melee_Weapons/Great Sword Walk.fbx",
+          "name": "Great Sword Walk",
+          "group": "05_Combat_Melee_Weapons",
+          "kind": "file",
+          "deg": 5.52,
+          "mirrored": false,
+          "lib_frames": 41,
+          "lib_range": [
+            0,
+            41
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword walk (2).fbx",
+          "name": "great sword walk (2)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 12.04,
+          "mirrored": false,
+          "lib_frames": 39,
+          "lib_range": [
+            13,
+            39
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword strafe (2).fbx",
+          "name": "great sword strafe (2)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 13.77,
+          "mirrored": false,
+          "lib_frames": 35,
+          "lib_range": [
+            4,
+            35
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword idle (2).fbx",
+          "name": "great sword idle (2)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 14.35,
+          "mirrored": false,
+          "lib_frames": 87,
+          "lib_range": [
+            35,
+            56
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "Animation_Packs_ZIP/Great Sword Pack.zip::great sword walk.fbx",
+        "name": "great sword walk",
+        "group": "Great Sword Pack (zip)",
+        "kind": "zip",
+        "deg": 5.52,
+        "mirrored": false,
+        "lib_frames": 41,
+        "lib_range": [
+          0,
+          41
+        ],
+        "same_name": true
+      },
+      "output": "KatanaWalk.fbx"
+    },
+    {
+      "query": "Idle.fbx",
+      "query_frames": 250,
+      "query_skinned": true,
+      "query_travel": 0.008,
+      "candidates": [
+        {
+          "id": "Animation_Packs_ZIP/Female Basic Locomotion Pack.zip::idle.fbx",
+          "name": "idle",
+          "group": "Female Basic Locomotion Pack (zip)",
+          "kind": "zip",
+          "deg": 5.68,
+          "mirrored": false,
+          "lib_frames": 250,
+          "lib_range": [
+            0,
+            250
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Female Locomotion Pack.zip::idle.fbx",
+          "name": "idle",
+          "group": "Female Locomotion Pack (zip)",
+          "kind": "zip",
+          "deg": 5.68,
+          "mirrored": false,
+          "lib_frames": 250,
+          "lib_range": [
+            0,
+            250
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Gestures Pack Basic.zip::head nod yes.fbx",
+          "name": "head nod yes",
+          "group": "Gestures Pack Basic (zip)",
+          "kind": "zip",
+          "deg": 8.09,
+          "mirrored": false,
+          "lib_frames": 72,
+          "lib_range": [
+            2,
+            57
+          ],
+          "same_name": false
+        },
+        {
+          "id": "10_Social_Gestures_and_Conversation/Head Nod Yes.fbx",
+          "name": "Head Nod Yes",
+          "group": "10_Social_Gestures_and_Conversation",
+          "kind": "file",
+          "deg": 8.1,
+          "mirrored": false,
+          "lib_frames": 78,
+          "lib_range": [
+            2,
+            62
+          ],
+          "same_name": false
+        },
+        {
+          "id": "01_Idles_and_Poses/Standard Idle.fbx",
+          "name": "Standard Idle",
+          "group": "01_Idles_and_Poses",
+          "kind": "file",
+          "deg": 8.13,
+          "mirrored": false,
+          "lib_frames": 90,
+          "lib_range": [
+            0,
+            77
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "Animation_Packs_ZIP/Female Basic Locomotion Pack.zip::idle.fbx",
+        "name": "idle",
+        "group": "Female Basic Locomotion Pack (zip)",
+        "kind": "zip",
+        "deg": 5.68,
+        "mirrored": false,
+        "lib_frames": 250,
+        "lib_range": [
+          0,
+          250
+        ],
+        "same_name": true
+      },
+      "output": "IdleStanding.fbx"
+    },
+    {
+      "query": "Jump.fbx",
+      "query_frames": 23,
+      "query_skinned": true,
+      "query_travel": 0.107,
+      "candidates": [
+        {
+          "id": "13_Object_and_Environment_Interactions/Pick Up Item.fbx",
+          "name": "Pick Up Item",
+          "group": "13_Object_and_Environment_Interactions",
+          "kind": "file",
+          "deg": 27.26,
+          "mirrored": false,
+          "lib_frames": 36,
+          "lib_range": [
+            2,
+            17
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Lite Longbow Pack.zip::standing run forward.fbx",
+          "name": "standing run forward",
+          "group": "Lite Longbow Pack (zip)",
+          "kind": "zip",
+          "deg": 31.16,
+          "mirrored": false,
+          "lib_frames": 26,
+          "lib_range": [
+            1,
+            25
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Longbow Locomotion Pack (1).zip::standing run forward.fbx",
+          "name": "standing run forward",
+          "group": "Longbow Locomotion Pack (1) (zip)",
+          "kind": "zip",
+          "deg": 31.16,
+          "mirrored": false,
+          "lib_frames": 26,
+          "lib_range": [
+            1,
+            25
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Longbow Locomotion Pack.zip::standing run forward.fbx",
+          "name": "standing run forward",
+          "group": "Longbow Locomotion Pack (zip)",
+          "kind": "zip",
+          "deg": 31.16,
+          "mirrored": false,
+          "lib_frames": 26,
+          "lib_range": [
+            1,
+            25
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Pro Longbow Pack.zip::standing run forward.fbx",
+          "name": "standing run forward",
+          "group": "Pro Longbow Pack (zip)",
+          "kind": "zip",
+          "deg": 31.16,
+          "mirrored": false,
+          "lib_frames": 26,
+          "lib_range": [
+            1,
+            25
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "no_skinless_match",
+      "copied_skinned": true,
+      "output": "RuningJump.fbx"
+    },
+    {
+      "query": "Mma Kick (1).fbx",
+      "query_frames": 60,
+      "query_skinned": true,
+      "query_travel": 0.463,
+      "candidates": [
+        {
+          "id": "03_Jumps_Falls_and_Acrobatics/Cross Jumps Rotation.fbx",
+          "name": "Cross Jumps Rotation",
+          "group": "03_Jumps_Falls_and_Acrobatics",
+          "kind": "file",
+          "deg": 31.35,
+          "mirrored": true,
+          "lib_frames": 61,
+          "lib_range": [
+            1,
+            57
+          ],
+          "same_name": false
+        },
+        {
+          "id": "04_Combat_Unarmed/Side Kick.fbx",
+          "name": "Side Kick",
+          "group": "04_Combat_Unarmed",
+          "kind": "file",
+          "deg": 32.87,
+          "mirrored": false,
+          "lib_frames": 60,
+          "lib_range": [
+            6,
+            51
+          ],
+          "same_name": false
+        },
+        {
+          "id": "04_Combat_Unarmed/Mma Kick.fbx",
+          "name": "Mma Kick",
+          "group": "04_Combat_Unarmed",
+          "kind": "file",
+          "deg": 33.72,
+          "mirrored": false,
+          "lib_frames": 61,
+          "lib_range": [
+            13,
+            60
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Capoeira Pack.zip::martelo 2.fbx",
+          "name": "martelo 2",
+          "group": "Capoeira Pack (zip)",
+          "kind": "zip",
+          "deg": 34.66,
+          "mirrored": true,
+          "lib_frames": 39,
+          "lib_range": [
+            0,
+            39
+          ],
+          "same_name": false
+        },
+        {
+          "id": "15_Miscellaneous/Martelo 2.fbx",
+          "name": "Martelo 2",
+          "group": "15_Miscellaneous",
+          "kind": "file",
+          "deg": 34.69,
+          "mirrored": true,
+          "lib_frames": 39,
+          "lib_range": [
+            0,
+            39
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "no_skinless_match",
+      "copied_skinned": true,
+      "output": "MidKick.fbx"
+    },
+    {
+      "query": "Mma Kick.fbx",
+      "query_frames": 61,
+      "query_skinned": true,
+      "query_travel": 0.565,
+      "candidates": [
+        {
+          "id": "04_Combat_Unarmed/Mma Kick.fbx",
+          "name": "Mma Kick",
+          "group": "04_Combat_Unarmed",
+          "kind": "file",
+          "deg": 5.82,
+          "mirrored": false,
+          "lib_frames": 61,
+          "lib_range": [
+            0,
+            61
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Capoeira Pack.zip::chapa giratoria 2.fbx",
+          "name": "chapa giratoria 2",
+          "group": "Capoeira Pack (zip)",
+          "kind": "zip",
+          "deg": 35.53,
+          "mirrored": false,
+          "lib_frames": 71,
+          "lib_range": [
+            25,
+            71
+          ],
+          "same_name": false
+        },
+        {
+          "id": "15_Miscellaneous/Chapa Giratoria 2.fbx",
+          "name": "Chapa Giratoria 2",
+          "group": "15_Miscellaneous",
+          "kind": "file",
+          "deg": 35.59,
+          "mirrored": false,
+          "lib_frames": 71,
+          "lib_range": [
+            25,
+            71
+          ],
+          "same_name": false
+        },
+        {
+          "id": "04_Combat_Unarmed/Side Kick.fbx",
+          "name": "Side Kick",
+          "group": "04_Combat_Unarmed",
+          "kind": "file",
+          "deg": 39.65,
+          "mirrored": false,
+          "lib_frames": 60,
+          "lib_range": [
+            0,
+            54
+          ],
+          "same_name": false
+        },
+        {
+          "id": "15_Miscellaneous/Warming Up.fbx",
+          "name": "Warming Up",
+          "group": "15_Miscellaneous",
+          "kind": "file",
+          "deg": 40.26,
+          "mirrored": false,
+          "lib_frames": 189,
+          "lib_range": [
+            70,
+            121
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "04_Combat_Unarmed/Mma Kick.fbx",
+        "name": "Mma Kick",
+        "group": "04_Combat_Unarmed",
+        "kind": "file",
+        "deg": 5.82,
+        "mirrored": false,
+        "lib_frames": 61,
+        "lib_range": [
+          0,
+          61
+        ],
+        "same_name": true
+      },
+      "output": "HighKick.fbx"
+    },
+    {
+      "query": "Ninja Idle (1).fbx",
+      "query_frames": 148,
+      "query_skinned": true,
+      "query_travel": 0.209,
+      "candidates": [
+        {
+          "id": "01_Idles_and_Poses/Ninja Idle.fbx",
+          "name": "Ninja Idle",
+          "group": "01_Idles_and_Poses",
+          "kind": "file",
+          "deg": 11.53,
+          "mirrored": false,
+          "lib_frames": 100,
+          "lib_range": [
+            1,
+            77
+          ],
+          "same_name": true
+        },
+        {
+          "id": "01_Idles_and_Poses/Standing To Crouch.fbx",
+          "name": "Standing To Crouch",
+          "group": "01_Idles_and_Poses",
+          "kind": "file",
+          "deg": 25.48,
+          "mirrored": true,
+          "lib_frames": 28,
+          "lib_range": [
+            7,
+            28
+          ],
+          "same_name": false
+        },
+        {
+          "id": "01_Idles_and_Poses/Crouch To Standing.fbx",
+          "name": "Crouch To Standing",
+          "group": "01_Idles_and_Poses",
+          "kind": "file",
+          "deg": 26.1,
+          "mirrored": true,
+          "lib_frames": 28,
+          "lib_range": [
+            0,
+            21
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Crouch Walk Right.fbx",
+          "name": "Crouch Walk Right",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 26.46,
+          "mirrored": true,
+          "lib_frames": 33,
+          "lib_range": [
+            0,
+            33
+          ],
+          "same_name": false
+        },
+        {
+          "id": "07_Hits_Deaths_and_Reactions/Standing React Small From Left.fbx",
+          "name": "Standing React Small From Left",
+          "group": "07_Hits_Deaths_and_Reactions",
+          "kind": "file",
+          "deg": 26.91,
+          "mirrored": true,
+          "lib_frames": 23,
+          "lib_range": [
+            1,
+            22
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "no_skinless_match",
+      "copied_skinned": true,
+      "output": "StealthToCrouch.fbx"
+    },
+    {
+      "query": "Ninja Idle.fbx",
+      "query_frames": 100,
+      "query_skinned": true,
+      "query_travel": 0.022,
+      "candidates": [
+        {
+          "id": "01_Idles_and_Poses/Ninja Idle.fbx",
+          "name": "Ninja Idle",
+          "group": "01_Idles_and_Poses",
+          "kind": "file",
+          "deg": 6.1,
+          "mirrored": false,
+          "lib_frames": 100,
+          "lib_range": [
+            0,
+            100
+          ],
+          "same_name": true
+        },
+        {
+          "id": "03_Jumps_Falls_and_Acrobatics/Fall A Land To Standing Idle 02.fbx",
+          "name": "Fall A Land To Standing Idle 02",
+          "group": "03_Jumps_Falls_and_Acrobatics",
+          "kind": "file",
+          "deg": 25.59,
+          "mirrored": true,
+          "lib_frames": 47,
+          "lib_range": [
+            12,
+            47
+          ],
+          "same_name": false
+        },
+        {
+          "id": "03_Jumps_Falls_and_Acrobatics/Fall B Land To Standing Idle.fbx",
+          "name": "Fall B Land To Standing Idle",
+          "group": "03_Jumps_Falls_and_Acrobatics",
+          "kind": "file",
+          "deg": 25.59,
+          "mirrored": true,
+          "lib_frames": 47,
+          "lib_range": [
+            12,
+            47
+          ],
+          "same_name": false
+        },
+        {
+          "id": "01_Idles_and_Poses/Standing To Crouch.fbx",
+          "name": "Standing To Crouch",
+          "group": "01_Idles_and_Poses",
+          "kind": "file",
+          "deg": 25.9,
+          "mirrored": true,
+          "lib_frames": 28,
+          "lib_range": [
+            6,
+            27
+          ],
+          "same_name": false
+        },
+        {
+          "id": "01_Idles_and_Poses/Crouch To Standing.fbx",
+          "name": "Crouch To Standing",
+          "group": "01_Idles_and_Poses",
+          "kind": "file",
+          "deg": 26.54,
+          "mirrored": true,
+          "lib_frames": 28,
+          "lib_range": [
+            0,
+            21
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "01_Idles_and_Poses/Ninja Idle.fbx",
+        "name": "Ninja Idle",
+        "group": "01_Idles_and_Poses",
+        "kind": "file",
+        "deg": 6.1,
+        "mirrored": false,
+        "lib_frames": 100,
+        "lib_range": [
+          0,
+          100
+        ],
+        "same_name": true
+      },
+      "output": "StealthIdle.fbx"
+    },
+    {
+      "query": "Roundhouse Kick.fbx",
+      "query_frames": 64,
+      "query_skinned": true,
+      "query_travel": 0.632,
+      "candidates": [
+        {
+          "id": "04_Combat_Unarmed/Roundhouse Kick.fbx",
+          "name": "Roundhouse Kick",
+          "group": "04_Combat_Unarmed",
+          "kind": "file",
+          "deg": 5.72,
+          "mirrored": false,
+          "lib_frames": 64,
+          "lib_range": [
+            0,
+            64
+          ],
+          "same_name": true
+        },
+        {
+          "id": "Animation_Packs_ZIP/Pro Magic Pack.zip::Standing Block End.fbx",
+          "name": "Standing Block End",
+          "group": "Pro Magic Pack (zip)",
+          "kind": "zip",
+          "deg": 21.75,
+          "mirrored": false,
+          "lib_frames": 36,
+          "lib_range": [
+            9,
+            36
+          ],
+          "same_name": false
+        },
+        {
+          "id": "04_Combat_Unarmed/Standing Block End.fbx",
+          "name": "Standing Block End",
+          "group": "04_Combat_Unarmed",
+          "kind": "file",
+          "deg": 21.87,
+          "mirrored": false,
+          "lib_frames": 39,
+          "lib_range": [
+            9,
+            39
+          ],
+          "same_name": false
+        },
+        {
+          "id": "04_Combat_Unarmed/Inward Block.fbx",
+          "name": "Inward Block",
+          "group": "04_Combat_Unarmed",
+          "kind": "file",
+          "deg": 23.16,
+          "mirrored": false,
+          "lib_frames": 44,
+          "lib_range": [
+            1,
+            41
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Lite Longbow Pack.zip::standing draw arrow.fbx",
+          "name": "standing draw arrow",
+          "group": "Lite Longbow Pack (zip)",
+          "kind": "zip",
+          "deg": 23.32,
+          "mirrored": false,
+          "lib_frames": 30,
+          "lib_range": [
+            8,
+            30
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "04_Combat_Unarmed/Roundhouse Kick.fbx",
+        "name": "Roundhouse Kick",
+        "group": "04_Combat_Unarmed",
+        "kind": "file",
+        "deg": 5.72,
+        "mirrored": false,
+        "lib_frames": 64,
+        "lib_range": [
+          0,
+          64
+        ],
+        "same_name": true
+      },
+      "output": "RoundKick.fbx"
+    },
+    {
+      "query": "Rumba Dancing.fbx",
+      "query_frames": 71,
+      "query_skinned": true,
+      "query_travel": 0.141,
+      "candidates": [
+        {
+          "id": "08_Dance_and_Performance/Rumba Dancing.fbx",
+          "name": "Rumba Dancing",
+          "group": "08_Dance_and_Performance",
+          "kind": "file",
+          "deg": 5.91,
+          "mirrored": false,
+          "lib_frames": 71,
+          "lib_range": [
+            0,
+            71
+          ],
+          "same_name": true
+        },
+        {
+          "id": "06_Combat_Ranged_Weapons/Backwards Rifle Run.fbx",
+          "name": "Backwards Rifle Run",
+          "group": "06_Combat_Ranged_Weapons",
+          "kind": "file",
+          "deg": 18.85,
+          "mirrored": true,
+          "lib_frames": 18,
+          "lib_range": [
+            0,
+            13
+          ],
+          "same_name": false
+        },
+        {
+          "id": "06_Combat_Ranged_Weapons/Rifle Side Step.fbx",
+          "name": "Rifle Side Step",
+          "group": "06_Combat_Ranged_Weapons",
+          "kind": "file",
+          "deg": 20.01,
+          "mirrored": true,
+          "lib_frames": 35,
+          "lib_range": [
+            1,
+            35
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Turn 90 Left.fbx",
+          "name": "Turn 90 Left",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 20.11,
+          "mirrored": true,
+          "lib_frames": 30,
+          "lib_range": [
+            1,
+            30
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Lite Rifle Pack.zip::turn 90 left.fbx",
+          "name": "turn 90 left",
+          "group": "Lite Rifle Pack (zip)",
+          "kind": "zip",
+          "deg": 20.12,
+          "mirrored": true,
+          "lib_frames": 30,
+          "lib_range": [
+            1,
+            30
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "08_Dance_and_Performance/Rumba Dancing.fbx",
+        "name": "Rumba Dancing",
+        "group": "08_Dance_and_Performance",
+        "kind": "file",
+        "deg": 5.91,
+        "mirrored": false,
+        "lib_frames": 71,
+        "lib_range": [
+          0,
+          71
+        ],
+        "same_name": true
+      },
+      "output": "SeductiveDance.fbx"
+    },
+    {
+      "query": "Run.fbx",
+      "query_frames": 19,
+      "query_skinned": true,
+      "query_travel": 0.081,
+      "candidates": [
+        {
+          "id": "02_Walking_and_Running/Running Arc.fbx",
+          "name": "Running Arc",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 27.15,
+          "mirrored": true,
+          "lib_frames": 18,
+          "lib_range": [
+            0,
+            6
+          ],
+          "same_name": false
+        },
+        {
+          "id": "13_Object_and_Environment_Interactions/Pick Up Item.fbx",
+          "name": "Pick Up Item",
+          "group": "13_Object_and_Environment_Interactions",
+          "kind": "file",
+          "deg": 29.72,
+          "mirrored": false,
+          "lib_frames": 36,
+          "lib_range": [
+            3,
+            18
+          ],
+          "same_name": false
+        },
+        {
+          "id": "13_Object_and_Environment_Interactions/Pick Up Item.fbx",
+          "name": "Pick Up Item",
+          "group": "13_Object_and_Environment_Interactions",
+          "kind": "file",
+          "deg": 31.9,
+          "mirrored": true,
+          "lib_frames": 36,
+          "lib_range": [
+            13,
+            23
+          ],
+          "same_name": false
+        },
+        {
+          "id": "14_Creatures_and_Zombies/Standing Torch Inspect Downward.fbx",
+          "name": "Standing Torch Inspect Downward",
+          "group": "14_Creatures_and_Zombies",
+          "kind": "file",
+          "deg": 32.97,
+          "mirrored": true,
+          "lib_frames": 197,
+          "lib_range": [
+            63,
+            73
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Lite Longbow Pack.zip::standing run forward.fbx",
+          "name": "standing run forward",
+          "group": "Lite Longbow Pack (zip)",
+          "kind": "zip",
+          "deg": 33.36,
+          "mirrored": false,
+          "lib_frames": 26,
+          "lib_range": [
+            1,
+            26
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "no_skinless_match",
+      "copied_skinned": true,
+      "output": "NinjaRun.fbx"
+    },
+    {
+      "query": "Sheath A Great Sword 1.fbx",
+      "query_frames": 22,
+      "query_skinned": true,
+      "query_travel": 0.28,
+      "candidates": [
+        {
+          "id": "05_Combat_Melee_Weapons/Sheath A Great Sword 1.fbx",
+          "name": "Sheath A Great Sword 1",
+          "group": "05_Combat_Melee_Weapons",
+          "kind": "file",
+          "deg": 5.53,
+          "mirrored": false,
+          "lib_frames": 22,
+          "lib_range": [
+            0,
+            22
+          ],
+          "same_name": true
+        },
+        {
+          "id": "06_Combat_Ranged_Weapons/Put Back Rifle Behind Shoulder.fbx",
+          "name": "Put Back Rifle Behind Shoulder",
+          "group": "06_Combat_Ranged_Weapons",
+          "kind": "file",
+          "deg": 22.62,
+          "mirrored": false,
+          "lib_frames": 119,
+          "lib_range": [
+            10,
+            54
+          ],
+          "same_name": false
+        },
+        {
+          "id": "09_Sports_and_Fitness/Weight Shift Gesture.fbx",
+          "name": "Weight Shift Gesture",
+          "group": "09_Sports_and_Fitness",
+          "kind": "file",
+          "deg": 22.63,
+          "mirrored": false,
+          "lib_frames": 59,
+          "lib_range": [
+            3,
+            14
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Pro Melee Axe Pack.zip::unarmed equip over shoulder.fbx",
+          "name": "unarmed equip over shoulder",
+          "group": "Pro Melee Axe Pack (zip)",
+          "kind": "zip",
+          "deg": 22.7,
+          "mirrored": false,
+          "lib_frames": 50,
+          "lib_range": [
+            1,
+            30
+          ],
+          "same_name": false
+        },
+        {
+          "id": "06_Combat_Ranged_Weapons/Grab And Put Back Rifle.fbx",
+          "name": "Grab And Put Back Rifle",
+          "group": "06_Combat_Ranged_Weapons",
+          "kind": "file",
+          "deg": 22.72,
+          "mirrored": false,
+          "lib_frames": 225,
+          "lib_range": [
+            116,
+            160
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "05_Combat_Melee_Weapons/Sheath A Great Sword 1.fbx",
+        "name": "Sheath A Great Sword 1",
+        "group": "05_Combat_Melee_Weapons",
+        "kind": "file",
+        "deg": 5.53,
+        "mirrored": false,
+        "lib_frames": 22,
+        "lib_range": [
+          0,
+          22
+        ],
+        "same_name": true
+      },
+      "output": "KatanaSeath.fbx"
+    },
+    {
+      "query": "Sitting Idle.fbx",
+      "query_frames": 489,
+      "query_skinned": true,
+      "query_travel": 0.0,
+      "candidates": [
+        {
+          "id": "11_Sitting_Lying_and_Sleeping/Sitting Idle.fbx",
+          "name": "Sitting Idle",
+          "group": "11_Sitting_Lying_and_Sleeping",
+          "kind": "file",
+          "deg": 9.09,
+          "mirrored": false,
+          "lib_frames": 326,
+          "lib_range": [
+            0,
+            326
+          ],
+          "same_name": true
+        },
+        {
+          "id": "11_Sitting_Lying_and_Sleeping/Sitting Talking.fbx",
+          "name": "Sitting Talking",
+          "group": "11_Sitting_Lying_and_Sleeping",
+          "kind": "file",
+          "deg": 35.98,
+          "mirrored": false,
+          "lib_frames": 1322,
+          "lib_range": [
+            940,
+            1189
+          ],
+          "same_name": false
+        },
+        {
+          "id": "13_Object_and_Environment_Interactions/Typing.fbx",
+          "name": "Typing",
+          "group": "13_Object_and_Environment_Interactions",
+          "kind": "file",
+          "deg": 36.23,
+          "mirrored": true,
+          "lib_frames": 494,
+          "lib_range": [
+            119,
+            464
+          ],
+          "same_name": false
+        },
+        {
+          "id": "15_Miscellaneous/Having A Meeting, Male.fbx",
+          "name": "Having A Meeting, Male",
+          "group": "15_Miscellaneous",
+          "kind": "file",
+          "deg": 36.49,
+          "mirrored": true,
+          "lib_frames": 1400,
+          "lib_range": [
+            846,
+            1090
+          ],
+          "same_name": false
+        },
+        {
+          "id": "11_Sitting_Lying_and_Sleeping/Type To Sit.fbx",
+          "name": "Type To Sit",
+          "group": "11_Sitting_Lying_and_Sleeping",
+          "kind": "file",
+          "deg": 36.52,
+          "mirrored": true,
+          "lib_frames": 28,
+          "lib_range": [
+            8,
+            28
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "probable",
+      "source": {
+        "id": "11_Sitting_Lying_and_Sleeping/Sitting Idle.fbx",
+        "name": "Sitting Idle",
+        "group": "11_Sitting_Lying_and_Sleeping",
+        "kind": "file",
+        "deg": 9.09,
+        "mirrored": false,
+        "lib_frames": 326,
+        "lib_range": [
+          0,
+          326
+        ],
+        "same_name": true
+      },
+      "note": "same name, whole clip lines up at a constant speed, but the pose differs a little more than usual",
+      "output": "SittingFloor.fbx"
+    },
+    {
+      "query": "Sitting.fbx",
+      "query_frames": 287,
+      "query_skinned": true,
+      "query_travel": 0.001,
+      "candidates": [
+        {
+          "id": "15_Miscellaneous/Having A Meeting, Female.fbx",
+          "name": "Having A Meeting, Female",
+          "group": "15_Miscellaneous",
+          "kind": "file",
+          "deg": 18.07,
+          "mirrored": false,
+          "lib_frames": 1400,
+          "lib_range": [
+            0,
+            103
+          ],
+          "same_name": false
+        },
+        {
+          "id": "15_Miscellaneous/Having A Meeting, Female.fbx",
+          "name": "Having A Meeting, Female",
+          "group": "15_Miscellaneous",
+          "kind": "file",
+          "deg": 18.5,
+          "mirrored": true,
+          "lib_frames": 1400,
+          "lib_range": [
+            0,
+            103
+          ],
+          "same_name": false
+        },
+        {
+          "id": "11_Sitting_Lying_and_Sleeping/Sitting Talking.fbx",
+          "name": "Sitting Talking",
+          "group": "11_Sitting_Lying_and_Sleeping",
+          "kind": "file",
+          "deg": 20.58,
+          "mirrored": false,
+          "lib_frames": 1322,
+          "lib_range": [
+            151,
+            293
+          ],
+          "same_name": false
+        },
+        {
+          "id": "11_Sitting_Lying_and_Sleeping/Sit To Type.fbx",
+          "name": "Sit To Type",
+          "group": "11_Sitting_Lying_and_Sleeping",
+          "kind": "file",
+          "deg": 20.75,
+          "mirrored": false,
+          "lib_frames": 36,
+          "lib_range": [
+            0,
+            27
+          ],
+          "same_name": false
+        },
+        {
+          "id": "11_Sitting_Lying_and_Sleeping/Type To Sit.fbx",
+          "name": "Type To Sit",
+          "group": "11_Sitting_Lying_and_Sleeping",
+          "kind": "file",
+          "deg": 21.17,
+          "mirrored": false,
+          "lib_frames": 28,
+          "lib_range": [
+            7,
+            28
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "no_skinless_match",
+      "copied_skinned": true,
+      "output": "Sitting.fbx"
+    },
+    {
+      "query": "Slow Run.fbx",
+      "query_frames": 22,
+      "query_skinned": true,
+      "query_travel": 0.079,
+      "candidates": [
+        {
+          "id": "02_Walking_and_Running/Slow Run.fbx",
+          "name": "Slow Run",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 5.83,
+          "mirrored": false,
+          "lib_frames": 22,
+          "lib_range": [
+            0,
+            22
+          ],
+          "same_name": true
+        },
+        {
+          "id": "02_Walking_and_Running/Jog Forward.fbx",
+          "name": "Jog Forward",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 14.09,
+          "mirrored": false,
+          "lib_frames": 25,
+          "lib_range": [
+            0,
+            24
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Soccer Game Pack.zip::jog forward.fbx",
+          "name": "jog forward",
+          "group": "Soccer Game Pack (zip)",
+          "kind": "zip",
+          "deg": 14.1,
+          "mirrored": false,
+          "lib_frames": 25,
+          "lib_range": [
+            0,
+            24
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Medium Run.fbx",
+          "name": "Medium Run",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 16.45,
+          "mirrored": false,
+          "lib_frames": 17,
+          "lib_range": [
+            0,
+            16
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Slow Run.fbx",
+          "name": "Slow Run",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 16.99,
+          "mirrored": true,
+          "lib_frames": 22,
+          "lib_range": [
+            0,
+            9
+          ],
+          "same_name": true
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "02_Walking_and_Running/Slow Run.fbx",
+        "name": "Slow Run",
+        "group": "02_Walking_and_Running",
+        "kind": "file",
+        "deg": 5.83,
+        "mirrored": false,
+        "lib_frames": 22,
+        "lib_range": [
+          0,
+          22
+        ],
+        "same_name": true
+      },
+      "output": "SlowRun.fbx"
+    },
+    {
+      "query": "Sneak Walk.fbx",
+      "query_frames": 32,
+      "query_skinned": true,
+      "query_travel": 0.102,
+      "candidates": [
+        {
+          "id": "02_Walking_and_Running/Walk Backward.fbx",
+          "name": "Walk Backward",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 20.13,
+          "mirrored": false,
+          "lib_frames": 33,
+          "lib_range": [
+            21,
+            33
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Crouch Walk Forward.fbx",
+          "name": "Crouch Walk Forward",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 25.88,
+          "mirrored": true,
+          "lib_frames": 37,
+          "lib_range": [
+            18,
+            37
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Crouch Walk Right.fbx",
+          "name": "Crouch Walk Right",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 26.88,
+          "mirrored": true,
+          "lib_frames": 33,
+          "lib_range": [
+            0,
+            24
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Sneak Walk.fbx",
+          "name": "Sneak Walk",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 27.35,
+          "mirrored": true,
+          "lib_frames": 27,
+          "lib_range": [
+            0,
+            20
+          ],
+          "same_name": true
+        },
+        {
+          "id": "02_Walking_and_Running/Crouched Walking.fbx",
+          "name": "Crouched Walking",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 27.74,
+          "mirrored": true,
+          "lib_frames": 31,
+          "lib_range": [
+            19,
+            31
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "no_skinless_match",
+      "copied_skinned": true,
+      "output": "SneakWalk.fbx"
+    },
+    {
+      "query": "Sprinting Forward Roll.fbx",
+      "query_frames": 35,
+      "query_skinned": true,
+      "query_travel": 0.852,
+      "candidates": [
+        {
+          "id": "03_Jumps_Falls_and_Acrobatics/Sprinting Forward Roll.fbx",
+          "name": "Sprinting Forward Roll",
+          "group": "03_Jumps_Falls_and_Acrobatics",
+          "kind": "file",
+          "deg": 5.96,
+          "mirrored": false,
+          "lib_frames": 35,
+          "lib_range": [
+            0,
+            35
+          ],
+          "same_name": true
+        },
+        {
+          "id": "03_Jumps_Falls_and_Acrobatics/Quick Roll To Run.fbx",
+          "name": "Quick Roll To Run",
+          "group": "03_Jumps_Falls_and_Acrobatics",
+          "kind": "file",
+          "deg": 17.66,
+          "mirrored": false,
+          "lib_frames": 42,
+          "lib_range": [
+            1,
+            41
+          ],
+          "same_name": false
+        },
+        {
+          "id": "03_Jumps_Falls_and_Acrobatics/Stand To Roll.fbx",
+          "name": "Stand To Roll",
+          "group": "03_Jumps_Falls_and_Acrobatics",
+          "kind": "file",
+          "deg": 29.93,
+          "mirrored": true,
+          "lib_frames": 71,
+          "lib_range": [
+            12,
+            57
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Action Adventure Pack.zip::falling to roll.fbx",
+          "name": "falling to roll",
+          "group": "Action Adventure Pack (zip)",
+          "kind": "zip",
+          "deg": 35.88,
+          "mirrored": true,
+          "lib_frames": 44,
+          "lib_range": [
+            1,
+            39
+          ],
+          "same_name": false
+        },
+        {
+          "id": "07_Hits_Deaths_and_Reactions/Falling To Roll.fbx",
+          "name": "Falling To Roll",
+          "group": "07_Hits_Deaths_and_Reactions",
+          "kind": "file",
+          "deg": 35.88,
+          "mirrored": true,
+          "lib_frames": 54,
+          "lib_range": [
+            1,
+            39
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "03_Jumps_Falls_and_Acrobatics/Sprinting Forward Roll.fbx",
+        "name": "Sprinting Forward Roll",
+        "group": "03_Jumps_Falls_and_Acrobatics",
+        "kind": "file",
+        "deg": 5.96,
+        "mirrored": false,
+        "lib_frames": 35,
+        "lib_range": [
+          0,
+          35
+        ],
+        "same_name": true
+      },
+      "output": "ForwardRoll.fbx"
+    },
+    {
+      "query": "Two Handed Sword Death.fbx",
+      "query_frames": 78,
+      "query_skinned": true,
+      "query_travel": 1.315,
+      "candidates": [
+        {
+          "id": "Animation_Packs_ZIP/Great Sword Pack.zip::two handed sword death (2).fbx",
+          "name": "two handed sword death (2)",
+          "group": "Great Sword Pack (zip)",
+          "kind": "zip",
+          "deg": 6.01,
+          "mirrored": false,
+          "lib_frames": 75,
+          "lib_range": [
+            0,
+            75
+          ],
+          "same_name": true
+        },
+        {
+          "id": "07_Hits_Deaths_and_Reactions/Falling Forward Death.fbx",
+          "name": "Falling Forward Death",
+          "group": "07_Hits_Deaths_and_Reactions",
+          "kind": "file",
+          "deg": 35.83,
+          "mirrored": false,
+          "lib_frames": 77,
+          "lib_range": [
+            7,
+            46
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Pro Rifle Pack.zip::death from the front.fbx",
+          "name": "death from the front",
+          "group": "Pro Rifle Pack (zip)",
+          "kind": "zip",
+          "deg": 39.93,
+          "mirrored": false,
+          "lib_frames": 103,
+          "lib_range": [
+            1,
+            102
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Rifle 8-Way Locomotion Pack.zip::death from the front.fbx",
+          "name": "death from the front",
+          "group": "Rifle 8-Way Locomotion Pack (zip)",
+          "kind": "zip",
+          "deg": 39.93,
+          "mirrored": false,
+          "lib_frames": 103,
+          "lib_range": [
+            1,
+            102
+          ],
+          "same_name": false
+        },
+        {
+          "id": "07_Hits_Deaths_and_Reactions/Death From The Front.fbx",
+          "name": "Death From The Front",
+          "group": "07_Hits_Deaths_and_Reactions",
+          "kind": "file",
+          "deg": 39.98,
+          "mirrored": false,
+          "lib_frames": 103,
+          "lib_range": [
+            1,
+            102
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "matched",
+      "source": {
+        "id": "Animation_Packs_ZIP/Great Sword Pack.zip::two handed sword death (2).fbx",
+        "name": "two handed sword death (2)",
+        "group": "Great Sword Pack (zip)",
+        "kind": "zip",
+        "deg": 6.01,
+        "mirrored": false,
+        "lib_frames": 75,
+        "lib_range": [
+          0,
+          75
+        ],
+        "same_name": true
+      },
+      "output": "KatanaDeath.fbx"
+    },
+    {
+      "query": "Walking.fbx",
+      "query_frames": 41,
+      "query_skinned": true,
+      "query_travel": 0.046,
+      "candidates": [
+        {
+          "id": "02_Walking_and_Running/Catwalk Walk Forward HighKnees.fbx",
+          "name": "Catwalk Walk Forward HighKnees",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 14.6,
+          "mirrored": false,
+          "lib_frames": 37,
+          "lib_range": [
+            0,
+            36
+          ],
+          "same_name": false
+        },
+        {
+          "id": "Animation_Packs_ZIP/Action Adventure Pack.zip::walking.fbx",
+          "name": "walking",
+          "group": "Action Adventure Pack (zip)",
+          "kind": "zip",
+          "deg": 15.48,
+          "mirrored": false,
+          "lib_frames": 31,
+          "lib_range": [
+            1,
+            31
+          ],
+          "same_name": true
+        },
+        {
+          "id": "02_Walking_and_Running/Catwalk Walk Forward.fbx",
+          "name": "Catwalk Walk Forward",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 15.63,
+          "mirrored": false,
+          "lib_frames": 36,
+          "lib_range": [
+            0,
+            36
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Standard Walk.fbx",
+          "name": "Standard Walk",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 16.36,
+          "mirrored": false,
+          "lib_frames": 35,
+          "lib_range": [
+            0,
+            33
+          ],
+          "same_name": false
+        },
+        {
+          "id": "02_Walking_and_Running/Walk.fbx",
+          "name": "Walk",
+          "group": "02_Walking_and_Running",
+          "kind": "file",
+          "deg": 16.54,
+          "mirrored": false,
+          "lib_frames": 30,
+          "lib_range": [
+            0,
+            29
+          ],
+          "same_name": false
+        }
+      ],
+      "status": "no_skinless_match",
+      "copied_skinned": true,
+      "output": "Walking.fbx"
+    }
+  ],
+  "redownload": [
+    {
+      "query": "Catwalk Twist R To Twist L",
+      "frames": 65,
+      "mirror": false,
+      "closest": {
+        "id": "02_Walking_and_Running/Catwalk Idle To Twist R.fbx",
+        "name": "Catwalk Idle To Twist R",
+        "group": "02_Walking_and_Running",
+        "kind": "file",
+        "deg": 8.45,
+        "mirrored": true,
+        "lib_frames": 65,
+        "lib_range": [
+          1,
+          65
+        ],
+        "same_name": false
+      }
+    },
+    {
+      "query": "Fast Run",
+      "frames": 16,
+      "mirror": false,
+      "closest": {
+        "id": "02_Walking_and_Running/Standard Run.fbx",
+        "name": "Standard Run",
+        "group": "02_Walking_and_Running",
+        "kind": "file",
+        "deg": 18.73,
+        "mirrored": false,
+        "lib_frames": 22,
+        "lib_range": [
+          0,
+          22
+        ],
+        "same_name": false
+      }
+    },
+    {
+      "query": "Jump",
+      "frames": 23,
+      "mirror": false,
+      "closest": {
+        "id": "13_Object_and_Environment_Interactions/Pick Up Item.fbx",
+        "name": "Pick Up Item",
+        "group": "13_Object_and_Environment_Interactions",
+        "kind": "file",
+        "deg": 27.26,
+        "mirrored": false,
+        "lib_frames": 36,
+        "lib_range": [
+          2,
+          17
+        ],
+        "same_name": false
+      }
+    },
+    {
+      "query": "Mma Kick (1)",
+      "frames": 60,
+      "mirror": false,
+      "closest": {
+        "id": "03_Jumps_Falls_and_Acrobatics/Cross Jumps Rotation.fbx",
+        "name": "Cross Jumps Rotation",
+        "group": "03_Jumps_Falls_and_Acrobatics",
+        "kind": "file",
+        "deg": 31.35,
+        "mirrored": true,
+        "lib_frames": 61,
+        "lib_range": [
+          1,
+          57
+        ],
+        "same_name": false
+      }
+    },
+    {
+      "query": "Ninja Idle (1)",
+      "frames": 148,
+      "mirror": false,
+      "closest": {
+        "id": "01_Idles_and_Poses/Ninja Idle.fbx",
+        "name": "Ninja Idle",
+        "group": "01_Idles_and_Poses",
+        "kind": "file",
+        "deg": 11.53,
+        "mirrored": false,
+        "lib_frames": 100,
+        "lib_range": [
+          1,
+          77
+        ],
+        "same_name": true
+      }
+    },
+    {
+      "query": "Run",
+      "frames": 19,
+      "mirror": false,
+      "closest": {
+        "id": "02_Walking_and_Running/Running Arc.fbx",
+        "name": "Running Arc",
+        "group": "02_Walking_and_Running",
+        "kind": "file",
+        "deg": 27.15,
+        "mirrored": true,
+        "lib_frames": 18,
+        "lib_range": [
+          0,
+          6
+        ],
+        "same_name": false
+      }
+    },
+    {
+      "query": "Sitting",
+      "frames": 287,
+      "mirror": false,
+      "closest": {
+        "id": "15_Miscellaneous/Having A Meeting, Female.fbx",
+        "name": "Having A Meeting, Female",
+        "group": "15_Miscellaneous",
+        "kind": "file",
+        "deg": 18.07,
+        "mirrored": false,
+        "lib_frames": 1400,
+        "lib_range": [
+          0,
+          103
+        ],
+        "same_name": false
+      }
+    },
+    {
+      "query": "Sneak Walk",
+      "frames": 32,
+      "mirror": false,
+      "closest": {
+        "id": "02_Walking_and_Running/Walk Backward.fbx",
+        "name": "Walk Backward",
+        "group": "02_Walking_and_Running",
+        "kind": "file",
+        "deg": 20.13,
+        "mirrored": false,
+        "lib_frames": 33,
+        "lib_range": [
+          21,
+          33
+        ],
+        "same_name": false
+      }
+    },
+    {
+      "query": "Walking",
+      "frames": 41,
+      "mirror": false,
+      "closest": {
+        "id": "02_Walking_and_Running/Catwalk Walk Forward HighKnees.fbx",
+        "name": "Catwalk Walk Forward HighKnees",
+        "group": "02_Walking_and_Running",
+        "kind": "file",
+        "deg": 14.6,
+        "mirrored": false,
+        "lib_frames": 37,
+        "lib_range": [
+          0,
+          36
+        ],
+        "same_name": false
+      }
+    }
+  ]
+}

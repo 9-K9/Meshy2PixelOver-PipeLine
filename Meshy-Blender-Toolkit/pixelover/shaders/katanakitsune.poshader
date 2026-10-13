@@ -1,0 +1,14 @@
+[pixelover]
+
+version="0.19.2"
+
+[shader]
+
+object_path="/home/emanzi/Applications/PixelOver/shader/katanakitsune.poshader"
+object_name="Default shader3"
+shader_inline_enable=true
+shader_internal_line_invert=true
+shader_internal_line_color_secondary=Color(0.26171875, 0.26171875, 0.26171875, 1)
+shader_internal_line_color=Color(0.66015625, 0.66015625, 0.66015625, 1)
+shader_internal_line_depth_enable=true
+shader_internal_line_depth_color=Color(0, 0, 0, 1)

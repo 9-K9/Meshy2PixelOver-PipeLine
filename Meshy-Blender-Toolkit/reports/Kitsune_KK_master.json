@@ -1,0 +1,23 @@
+{
+  "source": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/assets/rigged/Kitsune_for_mixamo.fbx",
+  "output": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/Kitsune_KK_master.blend",
+  "armature": "Armature",
+  "bones": 65,
+  "mixamorig_prefixed_bones": 65,
+  "original_height": 1.5985782678399119,
+  "target_height": null,
+  "materials": {
+    "output_unwrapped": [
+      "BakedMaterial"
+    ]
+  },
+  "rest_pose_changed": false,
+  "textures_fixed": [
+    {
+      "what": "texture packed",
+      "where": "normal",
+      "detail": "recovered from Meshy_AI_Crimson_Kitsune_1013125433_texture.glb (copy saved to /home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/textures/normal.png)"
+    }
+  ],
+  "texture_problems": []
+}

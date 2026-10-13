@@ -108,6 +108,29 @@ folder regardless of where Blender was launched.
 
 ## Stage 4 — Add Mixamo animations
 
+**Always use Without Skin clips.** A With Skin download carries a whole extra
+character (~12 MB) and is only accepted as a last resort. The local library
+`assets/animations/Mixamo/` (archived on Dropbox; restore it to that exact folder,
+unchanged) already holds ~2,500 skinless clips, loose and inside
+`Animation_Packs_ZIP/*.zip`. To find the skinless copy of clips you have:
+
+1. Set `TASK = "find_skinless_clips"`, `INPUT` = the clip or folder you have,
+   `OUTPUT` = a new folder such as `work/my_clips`.
+2. Optional: `CLIP_NAMES = "assets/animations/My_clip_names.tsv"`, lines of
+   `Mixamo name<TAB>game name`, to name the collected files (and so the clips).
+3. Run it. Clips are matched **by motion**, not name, so numbered variants such as
+   `Great Sword Slash (2)` find the right pack file even when the names disagree.
+   The first run fingerprints the library (~2 min, cached in `cache/`).
+4. Read `reports/find_skinless_clips.json`. `matched` and `probable` were copied
+   skinless. Clips under `redownload` exist in no skinless form: they were copied
+   With Skin so the build still works, but re-download them from Mixamo
+   **Without Skin** (and with **Mirror** ticked when the status is `mirrored`),
+   add them to the library, and run again.
+
+`--catalog assets/animations/Mixamo_Catalog.md` writes the full list of library
+clip names, grouped by folder and pack.
+
+
 1. Put only the animation-only FBX files in `assets/animations/`.
 2. Set `TASK = "batch_import_animations"`.
 3. `INPUT` is the master `.blend`; `ANIMATIONS_FOLDER` is that folder.

@@ -1,0 +1,1568 @@
+{
+  "output": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/output/Kitsune_KatanaKitsune.glb",
+  "armature": "Armature",
+  "bone_count": 65,
+  "source_actions": [
+    "FastRun",
+    "Flair",
+    "ForwardRoll",
+    "HighKick",
+    "IdleStanding",
+    "KatanaBlock",
+    "KatanaBlockCrouched",
+    "KatanaChargeAttack",
+    "KatanaCounterSlash",
+    "KatanaDeath",
+    "KatanaDraw",
+    "KatanaIdle",
+    "KatanaJump",
+    "KatanaKick",
+    "KatanaRun",
+    "KatanaSeath",
+    "KatanaSlashCrouched",
+    "KatanaSlashMid",
+    "KatanaWalk",
+    "MidKick",
+    "NinjaRun",
+    "RoundKick",
+    "RuningJump",
+    "SeductiveDance",
+    "Sitting",
+    "SittingFloor",
+    "SlowRun",
+    "SneakWalk",
+    "StealthIdle",
+    "StealthToCrouch",
+    "SwitchDirectionIdle",
+    "Walking"
+  ],
+  "skipped_actions": [
+    "Armature|mixamo.com|Layer0"
+  ],
+  "action_bone_warnings": {},
+  "glb": {
+    "glb_version": 2,
+    "declared_bytes": 14478120,
+    "actual_bytes": 14478120,
+    "nodes": 67,
+    "skins": 1,
+    "meshes": 1,
+    "materials": 1,
+    "images": 2,
+    "external_images": [],
+    "animations": [
+      "FastRun",
+      "Flair",
+      "ForwardRoll",
+      "HighKick",
+      "IdleStanding",
+      "KatanaBlock",
+      "KatanaBlockCrouched",
+      "KatanaChargeAttack",
+      "KatanaCounterSlash",
+      "KatanaDeath",
+      "KatanaDraw",
+      "KatanaIdle",
+      "KatanaJump",
+      "KatanaKick",
+      "KatanaRun",
+      "KatanaSeath",
+      "KatanaSlashCrouched",
+      "KatanaSlashMid",
+      "KatanaWalk",
+      "MidKick",
+      "NinjaRun",
+      "RoundKick",
+      "RuningJump",
+      "SeductiveDance",
+      "Sitting",
+      "SittingFloor",
+      "SlowRun",
+      "SneakWalk",
+      "StealthIdle",
+      "StealthToCrouch",
+      "SwitchDirectionIdle",
+      "Walking"
+    ],
+    "animation_details": [
+      {
+        "name": "FastRun",
+        "channels": 195,
+        "seconds": 0.533
+      },
+      {
+        "name": "Flair",
+        "channels": 195,
+        "seconds": 1
+      },
+      {
+        "name": "ForwardRoll",
+        "channels": 195,
+        "seconds": 1.167
+      },
+      {
+        "name": "HighKick",
+        "channels": 195,
+        "seconds": 2.033
+      },
+      {
+        "name": "IdleStanding",
+        "channels": 195,
+        "seconds": 8.333
+      },
+      {
+        "name": "KatanaBlock",
+        "channels": 195,
+        "seconds": 0.5
+      },
+      {
+        "name": "KatanaBlockCrouched",
+        "channels": 195,
+        "seconds": 0.467
+      },
+      {
+        "name": "KatanaChargeAttack",
+        "channels": 195,
+        "seconds": 4.8
+      },
+      {
+        "name": "KatanaCounterSlash",
+        "channels": 195,
+        "seconds": 1.8
+      },
+      {
+        "name": "KatanaDeath",
+        "channels": 195,
+        "seconds": 2.5
+      },
+      {
+        "name": "KatanaDraw",
+        "channels": 195,
+        "seconds": 0.8
+      },
+      {
+        "name": "KatanaIdle",
+        "channels": 195,
+        "seconds": 2
+      },
+      {
+        "name": "KatanaJump",
+        "channels": 195,
+        "seconds": 0.9
+      },
+      {
+        "name": "KatanaKick",
+        "channels": 195,
+        "seconds": 1.5
+      },
+      {
+        "name": "KatanaRun",
+        "channels": 195,
+        "seconds": 0.6
+      },
+      {
+        "name": "KatanaSeath",
+        "channels": 195,
+        "seconds": 0.733
+      },
+      {
+        "name": "KatanaSlashCrouched",
+        "channels": 195,
+        "seconds": 1.433
+      },
+      {
+        "name": "KatanaSlashMid",
+        "channels": 195,
+        "seconds": 1.833
+      },
+      {
+        "name": "KatanaWalk",
+        "channels": 195,
+        "seconds": 1.367
+      },
+      {
+        "name": "MidKick",
+        "channels": 195,
+        "seconds": 2
+      },
+      {
+        "name": "NinjaRun",
+        "channels": 195,
+        "seconds": 0.633
+      },
+      {
+        "name": "RoundKick",
+        "channels": 195,
+        "seconds": 2.133
+      },
+      {
+        "name": "RuningJump",
+        "channels": 195,
+        "seconds": 0.767
+      },
+      {
+        "name": "SeductiveDance",
+        "channels": 195,
+        "seconds": 2.367
+      },
+      {
+        "name": "Sitting",
+        "channels": 195,
+        "seconds": 9.567
+      },
+      {
+        "name": "SittingFloor",
+        "channels": 195,
+        "seconds": 10.867
+      },
+      {
+        "name": "SlowRun",
+        "channels": 195,
+        "seconds": 0.733
+      },
+      {
+        "name": "SneakWalk",
+        "channels": 195,
+        "seconds": 1.067
+      },
+      {
+        "name": "StealthIdle",
+        "channels": 195,
+        "seconds": 3.333
+      },
+      {
+        "name": "StealthToCrouch",
+        "channels": 195,
+        "seconds": 4.933
+      },
+      {
+        "name": "SwitchDirectionIdle",
+        "channels": 195,
+        "seconds": 2.167
+      },
+      {
+        "name": "Walking",
+        "channels": 195,
+        "seconds": 1.367
+      }
+    ]
+  },
+  "audit": {
+    "auto_fixed": [
+      {
+        "what": "root travel removed (in place)",
+        "where": "Flair",
+        "metres": 0.38
+      },
+      {
+        "what": "root travel removed (in place)",
+        "where": "ForwardRoll",
+        "metres": 5.31
+      },
+      {
+        "what": "root travel removed (in place)",
+        "where": "HighKick",
+        "metres": 0.51
+      },
+      {
+        "what": "root travel removed (in place)",
+        "where": "KatanaChargeAttack",
+        "metres": 0.38
+      },
+      {
+        "what": "root travel removed (in place)",
+        "where": "KatanaCounterSlash",
+        "metres": 1.05
+      },
+      {
+        "what": "root travel removed (in place)",
+        "where": "KatanaDeath",
+        "metres": 1.19
+      },
+      {
+        "what": "root travel removed (in place)",
+        "where": "KatanaKick",
+        "metres": 0.36
+      },
+      {
+        "what": "root travel removed (in place)",
+        "where": "KatanaRun",
+        "metres": 2.4
+      },
+      {
+        "what": "root travel removed (in place)",
+        "where": "KatanaSeath",
+        "metres": 0.26
+      },
+      {
+        "what": "root travel removed (in place)",
+        "where": "KatanaSlashCrouched",
+        "metres": 0.62
+      },
+      {
+        "what": "root travel removed (in place)",
+        "where": "KatanaSlashMid",
+        "metres": 0.67
+      },
+      {
+        "what": "root travel removed (in place)",
+        "where": "KatanaWalk",
+        "metres": 1.39
+      },
+      {
+        "what": "root travel removed (in place)",
+        "where": "MidKick",
+        "metres": 0.44
+      },
+      {
+        "what": "root travel removed (in place)",
+        "where": "RoundKick",
+        "metres": 0.6
+      },
+      {
+        "what": "root travel removed (in place)",
+        "where": "SlowRun",
+        "metres": 2.1
+      },
+      {
+        "what": "root travel removed (in place)",
+        "where": "SwitchDirectionIdle",
+        "metres": 0.35
+      }
+    ],
+    "needs_manual": [
+      {
+        "what": "more than 4 bone influences",
+        "where": "output_unwrapped",
+        "vertices": 82,
+        "severity": "info",
+        "fix": "the GLB exporter keeps the strongest 4; only matters if those vertices look wrong"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / FastRun",
+        "vertices": 75,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:LeftUpLeg": {
+            "vertices": 15,
+            "worst_stretch": 2.84,
+            "frame": 11
+          },
+          "mixamorig:Hips": {
+            "vertices": 11,
+            "worst_stretch": 2.18,
+            "frame": 11
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 8,
+            "worst_stretch": 2.26,
+            "frame": 11
+          },
+          "mixamorig:Spine2": {
+            "vertices": 7,
+            "worst_stretch": 5.1,
+            "frame": 11
+          },
+          "mixamorig:RightUpLeg": {
+            "vertices": 7,
+            "worst_stretch": 2.18,
+            "frame": 4
+          },
+          "mixamorig:RightArm": {
+            "vertices": 6,
+            "worst_stretch": 2.07,
+            "frame": 2
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / Flair",
+        "vertices": 276,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Spine2": {
+            "vertices": 49,
+            "worst_stretch": 10.7,
+            "frame": 17
+          },
+          "mixamorig:Hips": {
+            "vertices": 47,
+            "worst_stretch": 3.56,
+            "frame": 4
+          },
+          "mixamorig:RightArm": {
+            "vertices": 32,
+            "worst_stretch": 3.98,
+            "frame": 15
+          },
+          "mixamorig:Spine": {
+            "vertices": 30,
+            "worst_stretch": 3.08,
+            "frame": 4
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 25,
+            "worst_stretch": 3.13,
+            "frame": 17
+          },
+          "mixamorig:LeftShoulder": {
+            "vertices": 20,
+            "worst_stretch": 2.91,
+            "frame": 26
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / ForwardRoll",
+        "vertices": 159,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Hips": {
+            "vertices": 31,
+            "worst_stretch": 2.41,
+            "frame": 20
+          },
+          "mixamorig:RightArm": {
+            "vertices": 25,
+            "worst_stretch": 3.35,
+            "frame": 11
+          },
+          "mixamorig:LeftUpLeg": {
+            "vertices": 24,
+            "worst_stretch": 3.24,
+            "frame": 30
+          },
+          "mixamorig:Spine2": {
+            "vertices": 19,
+            "worst_stretch": 10.94,
+            "frame": 20
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 14,
+            "worst_stretch": 2.71,
+            "frame": 7
+          },
+          "mixamorig:RightUpLeg": {
+            "vertices": 11,
+            "worst_stretch": 2.33,
+            "frame": 30
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / HighKick",
+        "vertices": 117,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:RightArm": {
+            "vertices": 21,
+            "worst_stretch": 2.44,
+            "frame": 40
+          },
+          "mixamorig:Hips": {
+            "vertices": 20,
+            "worst_stretch": 2.55,
+            "frame": 29
+          },
+          "mixamorig:Head": {
+            "vertices": 16,
+            "worst_stretch": 7.34,
+            "frame": 29
+          },
+          "mixamorig:LeftUpLeg": {
+            "vertices": 15,
+            "worst_stretch": 3.56,
+            "frame": 29
+          },
+          "mixamorig:RightUpLeg": {
+            "vertices": 15,
+            "worst_stretch": 2.5,
+            "frame": 29
+          },
+          "mixamorig:Spine2": {
+            "vertices": 12,
+            "worst_stretch": 6.65,
+            "frame": 40
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / IdleStanding",
+        "vertices": 6,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:LeftArm": {
+            "vertices": 2,
+            "worst_stretch": 2.14,
+            "frame": 183
+          },
+          "mixamorig:Head": {
+            "vertices": 2,
+            "worst_stretch": 1.86,
+            "frame": 206
+          },
+          "mixamorig:LeftShoulder": {
+            "vertices": 2,
+            "worst_stretch": 1.82,
+            "frame": 183
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / KatanaBlock",
+        "vertices": 189,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Spine2": {
+            "vertices": 50,
+            "worst_stretch": 15.92,
+            "frame": 16
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 24,
+            "worst_stretch": 4.04,
+            "frame": 16
+          },
+          "mixamorig:Spine1": {
+            "vertices": 21,
+            "worst_stretch": 3.49,
+            "frame": 16
+          },
+          "mixamorig:LeftShoulder": {
+            "vertices": 17,
+            "worst_stretch": 4.33,
+            "frame": 16
+          },
+          "mixamorig:RightArm": {
+            "vertices": 16,
+            "worst_stretch": 3.22,
+            "frame": 16
+          },
+          "mixamorig:RightShoulder": {
+            "vertices": 15,
+            "worst_stretch": 4.67,
+            "frame": 16
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / KatanaBlockCrouched",
+        "vertices": 246,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Spine2": {
+            "vertices": 61,
+            "worst_stretch": 10.57,
+            "frame": 15
+          },
+          "mixamorig:RightArm": {
+            "vertices": 34,
+            "worst_stretch": 4.7,
+            "frame": 1
+          },
+          "mixamorig:Hips": {
+            "vertices": 25,
+            "worst_stretch": 2.68,
+            "frame": 15
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 24,
+            "worst_stretch": 4.16,
+            "frame": 1
+          },
+          "mixamorig:Head": {
+            "vertices": 19,
+            "worst_stretch": 7.89,
+            "frame": 15
+          },
+          "mixamorig:Spine1": {
+            "vertices": 18,
+            "worst_stretch": 3.88,
+            "frame": 1
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / KatanaChargeAttack",
+        "vertices": 315,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Spine2": {
+            "vertices": 87,
+            "worst_stretch": 14.36,
+            "frame": 27
+          },
+          "mixamorig:RightArm": {
+            "vertices": 36,
+            "worst_stretch": 4.26,
+            "frame": 66
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 34,
+            "worst_stretch": 4.69,
+            "frame": 93
+          },
+          "mixamorig:Spine1": {
+            "vertices": 31,
+            "worst_stretch": 4.38,
+            "frame": 53
+          },
+          "mixamorig:Hips": {
+            "vertices": 30,
+            "worst_stretch": 2.77,
+            "frame": 80
+          },
+          "mixamorig:LeftShoulder": {
+            "vertices": 26,
+            "worst_stretch": 5.06,
+            "frame": 53
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / KatanaCounterSlash",
+        "vertices": 352,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Spine2": {
+            "vertices": 104,
+            "worst_stretch": 18.61,
+            "frame": 21
+          },
+          "mixamorig:Hips": {
+            "vertices": 42,
+            "worst_stretch": 2.77,
+            "frame": 26
+          },
+          "mixamorig:RightArm": {
+            "vertices": 39,
+            "worst_stretch": 3.89,
+            "frame": 40
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 31,
+            "worst_stretch": 3.86,
+            "frame": 40
+          },
+          "mixamorig:Spine": {
+            "vertices": 30,
+            "worst_stretch": 2.77,
+            "frame": 26
+          },
+          "mixamorig:Spine1": {
+            "vertices": 28,
+            "worst_stretch": 3.9,
+            "frame": 11
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / KatanaDeath",
+        "vertices": 210,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Spine2": {
+            "vertices": 37,
+            "worst_stretch": 8.61,
+            "frame": 42
+          },
+          "mixamorig:Hips": {
+            "vertices": 36,
+            "worst_stretch": 2.64,
+            "frame": 62
+          },
+          "mixamorig:RightArm": {
+            "vertices": 36,
+            "worst_stretch": 3.78,
+            "frame": 62
+          },
+          "mixamorig:Spine": {
+            "vertices": 24,
+            "worst_stretch": 2.64,
+            "frame": 62
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 12,
+            "worst_stretch": 2.36,
+            "frame": 42
+          },
+          "mixamorig:LeftUpLeg": {
+            "vertices": 12,
+            "worst_stretch": 2.06,
+            "frame": 69
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / KatanaDraw",
+        "vertices": 139,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Spine2": {
+            "vertices": 42,
+            "worst_stretch": 6.81,
+            "frame": 5
+          },
+          "mixamorig:RightArm": {
+            "vertices": 41,
+            "worst_stretch": 3.8,
+            "frame": 12
+          },
+          "mixamorig:Spine1": {
+            "vertices": 20,
+            "worst_stretch": 3.87,
+            "frame": 8
+          },
+          "mixamorig:RightShoulder": {
+            "vertices": 16,
+            "worst_stretch": 4.88,
+            "frame": 8
+          },
+          "mixamorig:Head": {
+            "vertices": 10,
+            "worst_stretch": 5.23,
+            "frame": 1
+          },
+          "mixamorig:Neck": {
+            "vertices": 4,
+            "worst_stretch": 6.81,
+            "frame": 5
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / KatanaIdle",
+        "vertices": 44,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Spine2": {
+            "vertices": 10,
+            "worst_stretch": 5.56,
+            "frame": 56
+          },
+          "mixamorig:RightArm": {
+            "vertices": 10,
+            "worst_stretch": 2.18,
+            "frame": 12
+          },
+          "mixamorig:RightShoulder": {
+            "vertices": 7,
+            "worst_stretch": 3.11,
+            "frame": 12
+          },
+          "mixamorig:Spine1": {
+            "vertices": 6,
+            "worst_stretch": 2.53,
+            "frame": 12
+          },
+          "mixamorig:LeftShoulder": {
+            "vertices": 4,
+            "worst_stretch": 2.03,
+            "frame": 23
+          },
+          "mixamorig:Neck": {
+            "vertices": 3,
+            "worst_stretch": 5.56,
+            "frame": 56
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / KatanaJump",
+        "vertices": 140,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Hips": {
+            "vertices": 30,
+            "worst_stretch": 2.52,
+            "frame": 13
+          },
+          "mixamorig:Spine2": {
+            "vertices": 26,
+            "worst_stretch": 13.28,
+            "frame": 16
+          },
+          "mixamorig:RightArm": {
+            "vertices": 21,
+            "worst_stretch": 2.79,
+            "frame": 13
+          },
+          "mixamorig:LeftUpLeg": {
+            "vertices": 14,
+            "worst_stretch": 2.6,
+            "frame": 13
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 10,
+            "worst_stretch": 2.26,
+            "frame": 3
+          },
+          "mixamorig:Spine": {
+            "vertices": 8,
+            "worst_stretch": 2.09,
+            "frame": 16
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / KatanaKick",
+        "vertices": 214,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Spine2": {
+            "vertices": 59,
+            "worst_stretch": 9.73,
+            "frame": 17
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 30,
+            "worst_stretch": 4.35,
+            "frame": 21
+          },
+          "mixamorig:RightArm": {
+            "vertices": 27,
+            "worst_stretch": 2.95,
+            "frame": 13
+          },
+          "mixamorig:LeftShoulder": {
+            "vertices": 20,
+            "worst_stretch": 5.03,
+            "frame": 30
+          },
+          "mixamorig:Hips": {
+            "vertices": 15,
+            "worst_stretch": 2.31,
+            "frame": 17
+          },
+          "mixamorig:Spine1": {
+            "vertices": 13,
+            "worst_stretch": 3.87,
+            "frame": 30
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / KatanaRun",
+        "vertices": 138,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Hips": {
+            "vertices": 29,
+            "worst_stretch": 2.53,
+            "frame": 4
+          },
+          "mixamorig:Spine2": {
+            "vertices": 16,
+            "worst_stretch": 11.19,
+            "frame": 3
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 14,
+            "worst_stretch": 2.39,
+            "frame": 4
+          },
+          "mixamorig:Spine": {
+            "vertices": 14,
+            "worst_stretch": 2.43,
+            "frame": 14
+          },
+          "mixamorig:LeftUpLeg": {
+            "vertices": 14,
+            "worst_stretch": 2.59,
+            "frame": 14
+          },
+          "mixamorig:Neck": {
+            "vertices": 11,
+            "worst_stretch": 11.19,
+            "frame": 3
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / KatanaSeath",
+        "vertices": 92,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:RightArm": {
+            "vertices": 26,
+            "worst_stretch": 3.06,
+            "frame": 13
+          },
+          "mixamorig:Spine2": {
+            "vertices": 23,
+            "worst_stretch": 7.86,
+            "frame": 7
+          },
+          "mixamorig:Spine1": {
+            "vertices": 17,
+            "worst_stretch": 2.9,
+            "frame": 19
+          },
+          "mixamorig:RightShoulder": {
+            "vertices": 11,
+            "worst_stretch": 3.61,
+            "frame": 19
+          },
+          "mixamorig:Neck": {
+            "vertices": 4,
+            "worst_stretch": 7.86,
+            "frame": 7
+          },
+          "mixamorig:LeftShoulder": {
+            "vertices": 4,
+            "worst_stretch": 2.01,
+            "frame": 1
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / KatanaSlashCrouched",
+        "vertices": 298,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Spine2": {
+            "vertices": 78,
+            "worst_stretch": 10.57,
+            "frame": 1
+          },
+          "mixamorig:RightArm": {
+            "vertices": 35,
+            "worst_stretch": 4.05,
+            "frame": 21
+          },
+          "mixamorig:Hips": {
+            "vertices": 32,
+            "worst_stretch": 2.68,
+            "frame": 44
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 31,
+            "worst_stretch": 4.57,
+            "frame": 28
+          },
+          "mixamorig:LeftShoulder": {
+            "vertices": 21,
+            "worst_stretch": 5.08,
+            "frame": 32
+          },
+          "mixamorig:Spine1": {
+            "vertices": 21,
+            "worst_stretch": 3.97,
+            "frame": 32
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / KatanaSlashMid",
+        "vertices": 286,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Spine2": {
+            "vertices": 75,
+            "worst_stretch": 21.58,
+            "frame": 21
+          },
+          "mixamorig:Hips": {
+            "vertices": 30,
+            "worst_stretch": 3.39,
+            "frame": 31
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 30,
+            "worst_stretch": 3.93,
+            "frame": 21
+          },
+          "mixamorig:RightArm": {
+            "vertices": 30,
+            "worst_stretch": 3.99,
+            "frame": 21
+          },
+          "mixamorig:Spine": {
+            "vertices": 28,
+            "worst_stretch": 3.39,
+            "frame": 31
+          },
+          "mixamorig:Neck": {
+            "vertices": 21,
+            "worst_stretch": 21.58,
+            "frame": 21
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / KatanaWalk",
+        "vertices": 67,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Spine2": {
+            "vertices": 17,
+            "worst_stretch": 9.59,
+            "frame": 27
+          },
+          "mixamorig:RightArm": {
+            "vertices": 16,
+            "worst_stretch": 2.46,
+            "frame": 8
+          },
+          "mixamorig:RightShoulder": {
+            "vertices": 9,
+            "worst_stretch": 3.43,
+            "frame": 8
+          },
+          "mixamorig:Spine1": {
+            "vertices": 6,
+            "worst_stretch": 2.83,
+            "frame": 12
+          },
+          "mixamorig:Head": {
+            "vertices": 5,
+            "worst_stretch": 2.74,
+            "frame": 20
+          },
+          "mixamorig:Neck": {
+            "vertices": 5,
+            "worst_stretch": 9.59,
+            "frame": 27
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / MidKick",
+        "vertices": 95,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Hips": {
+            "vertices": 19,
+            "worst_stretch": 2.75,
+            "frame": 23
+          },
+          "mixamorig:LeftUpLeg": {
+            "vertices": 17,
+            "worst_stretch": 3.33,
+            "frame": 23
+          },
+          "mixamorig:RightUpLeg": {
+            "vertices": 16,
+            "worst_stretch": 2.43,
+            "frame": 17
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 9,
+            "worst_stretch": 2.27,
+            "frame": 17
+          },
+          "mixamorig:Spine2": {
+            "vertices": 8,
+            "worst_stretch": 3.88,
+            "frame": 61
+          },
+          "mixamorig:Head": {
+            "vertices": 7,
+            "worst_stretch": 5.93,
+            "frame": 28
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / NinjaRun",
+        "vertices": 99,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Hips": {
+            "vertices": 29,
+            "worst_stretch": 2.23,
+            "frame": 15
+          },
+          "mixamorig:LeftUpLeg": {
+            "vertices": 18,
+            "worst_stretch": 2.88,
+            "frame": 15
+          },
+          "mixamorig:Neck": {
+            "vertices": 15,
+            "worst_stretch": 14.38,
+            "frame": 1
+          },
+          "mixamorig:Spine2": {
+            "vertices": 11,
+            "worst_stretch": 14.38,
+            "frame": 1
+          },
+          "mixamorig:RightUpLeg": {
+            "vertices": 11,
+            "worst_stretch": 2.38,
+            "frame": 15
+          },
+          "mixamorig:Head": {
+            "vertices": 9,
+            "worst_stretch": 4.48,
+            "frame": 1
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / RoundKick",
+        "vertices": 68,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Hips": {
+            "vertices": 12,
+            "worst_stretch": 2.41,
+            "frame": 36
+          },
+          "mixamorig:Head": {
+            "vertices": 11,
+            "worst_stretch": 7.17,
+            "frame": 59
+          },
+          "mixamorig:LeftUpLeg": {
+            "vertices": 10,
+            "worst_stretch": 2.81,
+            "frame": 36
+          },
+          "mixamorig:RightShoulder": {
+            "vertices": 9,
+            "worst_stretch": 2.87,
+            "frame": 30
+          },
+          "mixamorig:Spine1": {
+            "vertices": 6,
+            "worst_stretch": 2.13,
+            "frame": 30
+          },
+          "mixamorig:Neck": {
+            "vertices": 6,
+            "worst_stretch": 9.0,
+            "frame": 30
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / RuningJump",
+        "vertices": 185,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Hips": {
+            "vertices": 35,
+            "worst_stretch": 2.54,
+            "frame": 5
+          },
+          "mixamorig:Spine2": {
+            "vertices": 30,
+            "worst_stretch": 14.52,
+            "frame": 20
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 18,
+            "worst_stretch": 2.63,
+            "frame": 5
+          },
+          "mixamorig:LeftUpLeg": {
+            "vertices": 17,
+            "worst_stretch": 2.74,
+            "frame": 5
+          },
+          "mixamorig:RightArm": {
+            "vertices": 16,
+            "worst_stretch": 2.51,
+            "frame": 5
+          },
+          "mixamorig:Neck": {
+            "vertices": 15,
+            "worst_stretch": 14.52,
+            "frame": 20
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / SeductiveDance",
+        "vertices": 36,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Hips": {
+            "vertices": 10,
+            "worst_stretch": 2.28,
+            "frame": 59
+          },
+          "mixamorig:Spine": {
+            "vertices": 9,
+            "worst_stretch": 2.12,
+            "frame": 59
+          },
+          "mixamorig:RightShoulder": {
+            "vertices": 6,
+            "worst_stretch": 2.19,
+            "frame": 40
+          },
+          "mixamorig:Head": {
+            "vertices": 3,
+            "worst_stretch": 3.86,
+            "frame": 20
+          },
+          "mixamorig:Spine1": {
+            "vertices": 3,
+            "worst_stretch": 1.94,
+            "frame": 66
+          },
+          "mixamorig:Neck": {
+            "vertices": 2,
+            "worst_stretch": 4.99,
+            "frame": 20
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / Sitting",
+        "vertices": 58,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Spine2": {
+            "vertices": 14,
+            "worst_stretch": 2.61,
+            "frame": 262
+          },
+          "mixamorig:RightArm": {
+            "vertices": 13,
+            "worst_stretch": 2.14,
+            "frame": 184
+          },
+          "mixamorig:LeftUpLeg": {
+            "vertices": 7,
+            "worst_stretch": 2.01,
+            "frame": 131
+          },
+          "mixamorig:RightShoulder": {
+            "vertices": 6,
+            "worst_stretch": 2.43,
+            "frame": 131
+          },
+          "mixamorig:Hips": {
+            "vertices": 5,
+            "worst_stretch": 1.91,
+            "frame": 131
+          },
+          "mixamorig:LeftShoulder": {
+            "vertices": 4,
+            "worst_stretch": 2.17,
+            "frame": 131
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / SittingFloor",
+        "vertices": 112,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Hips": {
+            "vertices": 24,
+            "worst_stretch": 2.56,
+            "frame": 238
+          },
+          "mixamorig:Spine2": {
+            "vertices": 22,
+            "worst_stretch": 7.52,
+            "frame": 208
+          },
+          "mixamorig:LeftUpLeg": {
+            "vertices": 19,
+            "worst_stretch": 3.39,
+            "frame": 90
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 15,
+            "worst_stretch": 2.35,
+            "frame": 208
+          },
+          "mixamorig:Head": {
+            "vertices": 9,
+            "worst_stretch": 3.62,
+            "frame": 179
+          },
+          "mixamorig:Spine": {
+            "vertices": 6,
+            "worst_stretch": 2.06,
+            "frame": 208
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / SlowRun",
+        "vertices": 12,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:LeftUpLeg": {
+            "vertices": 6,
+            "worst_stretch": 2.02,
+            "frame": 17
+          },
+          "mixamorig:Spine2": {
+            "vertices": 2,
+            "worst_stretch": 3.87,
+            "frame": 21
+          },
+          "mixamorig:Head": {
+            "vertices": 2,
+            "worst_stretch": 2.45,
+            "frame": 5
+          },
+          "mixamorig:Neck": {
+            "vertices": 2,
+            "worst_stretch": 3.87,
+            "frame": 21
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / SneakWalk",
+        "vertices": 159,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Hips": {
+            "vertices": 33,
+            "worst_stretch": 2.39,
+            "frame": 21
+          },
+          "mixamorig:Head": {
+            "vertices": 24,
+            "worst_stretch": 8.94,
+            "frame": 18
+          },
+          "mixamorig:RightArm": {
+            "vertices": 23,
+            "worst_stretch": 3.3,
+            "frame": 4
+          },
+          "mixamorig:Spine2": {
+            "vertices": 20,
+            "worst_stretch": 16.1,
+            "frame": 18
+          },
+          "mixamorig:Neck": {
+            "vertices": 18,
+            "worst_stretch": 16.1,
+            "frame": 18
+          },
+          "mixamorig:LeftUpLeg": {
+            "vertices": 17,
+            "worst_stretch": 2.88,
+            "frame": 27
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / StealthIdle",
+        "vertices": 69,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Hips": {
+            "vertices": 14,
+            "worst_stretch": 2.27,
+            "frame": 65
+          },
+          "mixamorig:Head": {
+            "vertices": 13,
+            "worst_stretch": 9.02,
+            "frame": 10
+          },
+          "mixamorig:RightUpLeg": {
+            "vertices": 7,
+            "worst_stretch": 1.99,
+            "frame": 65
+          },
+          "mixamorig:LeftShoulder": {
+            "vertices": 6,
+            "worst_stretch": 2.27,
+            "frame": 65
+          },
+          "mixamorig:Neck": {
+            "vertices": 6,
+            "worst_stretch": 11.49,
+            "frame": 74
+          },
+          "mixamorig:RightShoulder": {
+            "vertices": 6,
+            "worst_stretch": 2.14,
+            "frame": 83
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / StealthToCrouch",
+        "vertices": 120,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Hips": {
+            "vertices": 29,
+            "worst_stretch": 2.63,
+            "frame": 68
+          },
+          "mixamorig:Head": {
+            "vertices": 19,
+            "worst_stretch": 10.38,
+            "frame": 14
+          },
+          "mixamorig:LeftUpLeg": {
+            "vertices": 16,
+            "worst_stretch": 3.04,
+            "frame": 95
+          },
+          "mixamorig:RightUpLeg": {
+            "vertices": 13,
+            "worst_stretch": 2.43,
+            "frame": 95
+          },
+          "mixamorig:Spine2": {
+            "vertices": 12,
+            "worst_stretch": 12.24,
+            "frame": 28
+          },
+          "mixamorig:Neck": {
+            "vertices": 12,
+            "worst_stretch": 12.24,
+            "frame": 28
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / SwitchDirectionIdle",
+        "vertices": 18,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Spine2": {
+            "vertices": 5,
+            "worst_stretch": 12.78,
+            "frame": 7
+          },
+          "mixamorig:Neck": {
+            "vertices": 4,
+            "worst_stretch": 12.78,
+            "frame": 7
+          },
+          "mixamorig:Head": {
+            "vertices": 3,
+            "worst_stretch": 3.78,
+            "frame": 48
+          },
+          "mixamorig:Hips": {
+            "vertices": 2,
+            "worst_stretch": 2.18,
+            "frame": 25
+          },
+          "mixamorig:RightShoulder": {
+            "vertices": 2,
+            "worst_stretch": 1.98,
+            "frame": 7
+          },
+          "mixamorig:RightArm": {
+            "vertices": 1,
+            "worst_stretch": 2.07,
+            "frame": 7
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / Walking",
+        "vertices": 19,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:RightShoulder": {
+            "vertices": 6,
+            "worst_stretch": 2.35,
+            "frame": 12
+          },
+          "mixamorig:Spine1": {
+            "vertices": 3,
+            "worst_stretch": 2.13,
+            "frame": 20
+          },
+          "mixamorig:Head": {
+            "vertices": 2,
+            "worst_stretch": 2.33,
+            "frame": 12
+          },
+          "mixamorig:LeftShoulder": {
+            "vertices": 2,
+            "worst_stretch": 1.81,
+            "frame": 35
+          },
+          "mixamorig:Spine2": {
+            "vertices": 2,
+            "worst_stretch": 2.27,
+            "frame": 35
+          },
+          "mixamorig:LeftUpLeg": {
+            "vertices": 2,
+            "worst_stretch": 1.93,
+            "frame": 31
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      }
+    ]
+  },
+  "in_place": true,
+  "pixelover_status": "Audited and verified (textures embedded, skin, keyed animations); check the look in PixelOver"
+}

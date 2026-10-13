@@ -36,6 +36,25 @@ run audit_animations --blend "$TMP/broken.blend" --output "$TMP/repaired.blend" 
 run add_extra_bones --blend "$TMP/animated.blend" --output "$TMP/extra.blend" --mode chain --report "$TMP/r4.json"
 run export_for_pixelover --blend "$TMP/extra.blend" --output "$TMP/out.glb" --report "$TMP/r5.json"
 run build_pixelover_glb --rigged "$F/character.fbx" --animations "$F/anims" --output "$TMP/built.glb" --name built --work-dir "$TMP/work" --report-dir "$TMP"
+# find_skinless_clips: a library with one loose clip and one zipped under another name;
+# both queries must be found by motion and collected under the --names name.
+mkdir -p "$TMP/lib/Loose" "$TMP/query"
+cp "$F/anims/"*.fbx "$TMP/query/"
+first=$(ls "$F/anims" | head -1); second=$(ls "$F/anims" | sed -n 2p)
+cp "$F/anims/$first" "$TMP/lib/Loose/"
+(cd "$TMP" && cp "$F/anims/$second" "renamed clip (3).fbx" && python3 -c "import zipfile; zipfile.ZipFile('lib/Pack.zip','w').write('renamed clip (3).fbx')")
+printf '%s\tGameName\n' "${second%.fbx}" > "$TMP/names.tsv"
+run find_skinless_clips --library "$TMP/lib" --cache "$TMP/cache/index" --query "$TMP/query" --collect "$TMP/collected" \
+    --names "$TMP/names.tsv" --report "$TMP/skinless.json" --jobs 1 --catalog "$TMP/catalog.md"
+python3 - "$TMP" <<'PY'
+import json, sys, pathlib
+t = pathlib.Path(sys.argv[1]); r = json.loads((t / "skinless.json").read_text())
+assert [c["status"] for c in r["clips"]] == ["matched", "matched"], r["clips"]
+assert any(c["source"]["id"] == "Pack.zip::renamed clip (3).fbx" for c in r["clips"]), r["clips"]
+assert (t / "collected" / "GameName.fbx").exists(), list((t / "collected").iterdir())
+assert "renamed clip (3)" in (t / "catalog.md").read_text()
+print("FIND_SKINLESS_TEST_OK")
+PY
 # Negative check: a texture that cannot be found anywhere must stop the export.
 cat > "$TMP/lose.py" <<'BPY'
 import bpy

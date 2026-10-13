@@ -1,0 +1,294 @@
+{
+  "master": "Armature",
+  "output": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/Kitsune_KK_animated.blend",
+  "clips": [
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/FastRun.fbx",
+      "action": "FastRun",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.934565,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/Flair.fbx",
+      "action": "Flair",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/ForwardRoll.fbx",
+      "action": "ForwardRoll",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/HighKick.fbx",
+      "action": "HighKick",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/IdleStanding.fbx",
+      "action": "IdleStanding",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/KatanaBlock.fbx",
+      "action": "KatanaBlock",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/KatanaBlockCrouched.fbx",
+      "action": "KatanaBlockCrouched",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/KatanaChargeAttack.fbx",
+      "action": "KatanaChargeAttack",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/KatanaCounterSlash.fbx",
+      "action": "KatanaCounterSlash",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/KatanaDeath.fbx",
+      "action": "KatanaDeath",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/KatanaDraw.fbx",
+      "action": "KatanaDraw",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/KatanaIdle.fbx",
+      "action": "KatanaIdle",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/KatanaJump.fbx",
+      "action": "KatanaJump",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/KatanaKick.fbx",
+      "action": "KatanaKick",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/KatanaRun.fbx",
+      "action": "KatanaRun",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/KatanaSeath.fbx",
+      "action": "KatanaSeath",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/KatanaSlashCrouched.fbx",
+      "action": "KatanaSlashCrouched",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/KatanaSlashMid.fbx",
+      "action": "KatanaSlashMid",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/KatanaWalk.fbx",
+      "action": "KatanaWalk",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/MidKick.fbx",
+      "action": "MidKick",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.934565,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/NinjaRun.fbx",
+      "action": "NinjaRun",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.934565,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/RoundKick.fbx",
+      "action": "RoundKick",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/RuningJump.fbx",
+      "action": "RuningJump",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.934565,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/SeductiveDance.fbx",
+      "action": "SeductiveDance",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/Sitting.fbx",
+      "action": "Sitting",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.934565,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/SittingFloor.fbx",
+      "action": "SittingFloor",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/SlowRun.fbx",
+      "action": "SlowRun",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/SneakWalk.fbx",
+      "action": "SneakWalk",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.934565,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/StealthIdle.fbx",
+      "action": "StealthIdle",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/StealthToCrouch.fbx",
+      "action": "StealthToCrouch",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.934565,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/SwitchDirectionIdle.fbx",
+      "action": "SwitchDirectionIdle",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.934565,
+      "missing_on_master": [],
+      "master_only_bones": []
+    },
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/katanakitsune_clips/Walking.fbx",
+      "action": "Walking",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.934565,
+      "missing_on_master": [],
+      "master_only_bones": []
+    }
+  ]
+}

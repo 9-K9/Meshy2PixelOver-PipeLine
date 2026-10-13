@@ -8,6 +8,21 @@ class MBTProperties(bpy.types.PropertyGroup):
         default="//reports/scene_report.json",
     )
     last_summary: bpy.props.StringProperty(name="Last result", default="Not inspected")
+    audit_report_path: bpy.props.StringProperty(
+        name="Audit report",
+        subtype="FILE_PATH",
+        default="//reports/animation_audit.json",
+    )
+    audit_summary: bpy.props.StringProperty(name="Audit result", default="Not audited")
+    glb_path: bpy.props.StringProperty(
+        name="GLB",
+        subtype="FILE_PATH",
+        default="//output/character.glb",
+        description="Where Export PixelOver GLB writes; // is the folder of this .blend",
+    )
+    glb_in_place: bpy.props.BoolProperty(name="In Place", default=True,
+                                         description="Remove root travel so sprites stay centred")
+    export_summary: bpy.props.StringProperty(name="Export result", default="Not exported")
 
 
 CLASSES = (MBTProperties,)

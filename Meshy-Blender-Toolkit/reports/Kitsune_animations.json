@@ -1,0 +1,15 @@
+{
+  "master": "Armature",
+  "output": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/Kitsune_animated.blend",
+  "clips": [
+    {
+      "file": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/anim_test/Capoeira.fbx",
+      "action": "Capoeira",
+      "status": "ok",
+      "prefix_renamed": false,
+      "root_motion_scale": 0.009149,
+      "missing_on_master": [],
+      "master_only_bones": []
+    }
+  ]
+}

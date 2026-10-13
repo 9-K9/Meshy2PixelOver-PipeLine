@@ -10,7 +10,8 @@ import bpy
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from pipeline_common import (absolute, action_bone_names, action_fcurves, armatures, default_report,
-                             import_model, mixamo_prefix, save_report, script_args)
+                             ensure_clip_strip, hips_height_world, import_model, mixamo_prefix, save_report,
+                             scale_location_keys, script_args)
 
 
 def clean_name(path: Path):
@@ -24,6 +25,8 @@ def main():
         (("--animations",), {"required": True, "help": "Folder containing animation-only FBX files"}),
         (("--output",), {"required": True}),
         (("--report",), {"default": default_report("batch_animations.json")}),
+        (("--unit-only",), {"action": "store_true",
+                            "help": "Convert root motion units only; do not fit it to the character's height"}),
     )
     bpy.ops.wm.open_mainfile(filepath=str(absolute(args.blend)))
     master_rigs = armatures()
@@ -35,6 +38,7 @@ def main():
     if master.animation_data and master.animation_data.action:
         # Leftover pose clip from the character FBX; keep it but stop it overriding clips.
         master.animation_data.action.use_fake_user = True
+        master.animation_data.action["mbt_leftover"] = True  # the audit leaves it alone
         master.animation_data.action = None
     results = []
 
@@ -61,6 +65,17 @@ def main():
                     fcurve.data_path = fcurve.data_path.replace(f'["{clip_prefix}', f'["{master_prefix}')
                 used_names = action_bone_names(action)
                 renamed_prefix = True
+            # Location keys are in the clip rig's own units (Mixamo: centimetres under a 0.01
+            # object scale) and proportions. Convert them to the master's, or root motion
+            # flings the character metres away and the feet slide.
+            root_scale = 1.0
+            master_hips, source_hips = hips_height_world(master), hips_height_world(source_rig)
+            if master_hips and source_hips:
+                unit = source_rig.matrix_world.to_scale().x / master.matrix_world.to_scale().x
+                root_scale = unit if args.unit_only else unit * master_hips / source_hips
+                if abs(root_scale - 1.0) > 1e-4:
+                    scale_location_keys(action, root_scale)
+            action["mbt_root_scale"] = root_scale
             missing = sorted(used_names - master_names)
             extra_master = sorted(master_names - source_names)
             action.name = clean_name(path)
@@ -70,15 +85,11 @@ def main():
                 action["mbt_clip"] = True  # export_for_pixelover only exports tagged clips
                 if master.animation_data is None:
                     master.animation_data_create()
-                track = master.animation_data.nla_tracks.new()
-                track.name = action.name
-                strip = track.strips.new(action.name, int(action.frame_range[0]), action)
-                strip.action_frame_start, strip.action_frame_end = action.frame_range
-                track.mute = True  # Stored, not layered over other clips in Blender playback.
+                ensure_clip_strip(action, master)
             results.append({
                 "file": str(path), "action": action.name,
                 "status": "ok" if not missing else "bone_mismatch",
-                "prefix_renamed": renamed_prefix, "missing_on_master": missing, "master_only_bones": extra_master,
+                "prefix_renamed": renamed_prefix, "root_motion_scale": round(root_scale, 6), "missing_on_master": missing, "master_only_bones": extra_master,
             })
         for obj in imported:
             if obj.name in bpy.data.objects:

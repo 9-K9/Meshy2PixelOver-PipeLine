@@ -8,12 +8,5 @@ __pycache__/
 *.blend1
 backups/
 
-# User assets and generated output (keep the folder structure only)
-Meshy-Blender-Toolkit/assets/*/*
-Meshy-Blender-Toolkit/work/*
-Meshy-Blender-Toolkit/output/*
-Meshy-Blender-Toolkit/reports/*
-!Meshy-Blender-Toolkit/assets/*/.gitkeep
-!Meshy-Blender-Toolkit/work/.gitkeep
-!Meshy-Blender-Toolkit/output/.gitkeep
-!Meshy-Blender-Toolkit/reports/.gitkeep
+# The Mixamo clip library (~1 GB of FBX) is too heavy for git; keep it local.
+Meshy-Blender-Toolkit/assets/animations/Mixamo/

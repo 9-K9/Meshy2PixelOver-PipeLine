@@ -131,3 +131,61 @@ def mixamo_prefix(names):
 def object_height(objects):
     low, high = world_bounds(objects)
     return high.z - low.z
+
+
+def hips_bone(rig):
+    """The Mixamo root bone ('mixamorig:Hips', 'mixamorig1:Hips', ...) or None."""
+    return next((b for b in rig.data.bones if b.name.split(":")[-1] == "Hips"), None)
+
+
+def hips_height_world(rig):
+    """World-space height of the hips at rest; the yardstick for root-motion scale."""
+    bone = hips_bone(rig)
+    if bone is None:
+        return None
+    return (rig.matrix_world @ bone.head_local).z - rig.matrix_world.translation.z
+
+
+def scale_location_keys(action, factor):
+    """Scale every pose-bone location key (root motion) by factor."""
+    for fcurve in action_fcurves(action):
+        if fcurve.data_path.startswith("pose.bones[") and fcurve.data_path.endswith(".location"):
+            for key in fcurve.keyframe_points:
+                key.co.y *= factor
+                key.handle_left.y *= factor
+                key.handle_right.y *= factor
+            fcurve.update()
+
+
+def bind_action(action, rig):
+    """Blender 4.4+ slotted actions: name the clip's slot after the rig so Blender binds it
+    to that rig automatically. Returns the slot (None on pre-4.4 Blender)."""
+    slots = getattr(action, "slots", None)
+    if not slots:
+        return None
+    slot = slots[0]
+    if slot.name_display != rig.name:
+        slot.name_display = rig.name
+    return slot
+
+
+def ensure_clip_strip(action, rig):
+    """One muted NLA track per clip, with the clip's slot assigned. Returns a list of fixes made."""
+    fixes = []
+    if rig.animation_data is None:
+        rig.animation_data_create()
+    slot = bind_action(action, rig)
+    track = next((t for t in rig.animation_data.nla_tracks
+                  if any(s.action == action for s in t.strips)), None)
+    if track is None:
+        track = rig.animation_data.nla_tracks.new()
+        track.name = action.name
+        strip = track.strips.new(action.name, int(action.frame_range[0]), action)
+        strip.action_frame_start, strip.action_frame_end = action.frame_range
+        track.mute = True  # Stored, not layered over other clips in Blender playback.
+        fixes.append("created NLA track")
+    strip = next(s for s in track.strips if s.action == action)
+    if slot is not None and getattr(strip, "action_slot", slot) != slot:
+        strip.action_slot = slot
+        fixes.append("assigned action slot")
+    return fixes

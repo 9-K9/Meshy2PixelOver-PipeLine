@@ -28,6 +28,19 @@ head.tail = (0, 0, 2.0)
 head.parent = hips
 bpy.ops.object.mode_set(mode="OBJECT")
 
+# Textured material so the export's "textures embedded" check has something to verify.
+image = bpy.data.images.new("TestBody_color", 16, 16)
+image.pixels = [c for i in range(256) for c in ((0.8, 0.1, 0.1, 1.0) if (i // 16 + i) % 2 else (1, 1, 1, 1))]
+image.filepath_raw = str(root / "TestBody_color.png")
+image.file_format = "PNG"
+image.save()
+material = bpy.data.materials.new("TestBody_mat")
+material.use_nodes = True
+texture = material.node_tree.nodes.new("ShaderNodeTexImage")
+texture.image = image
+material.node_tree.links.new(texture.outputs["Color"], material.node_tree.nodes["Principled BSDF"].inputs["Base Color"])
+mesh.data.materials.append(material)
+
 group = mesh.vertex_groups.new(name="mixamorig:Hips")
 group.add(range(len(mesh.data.vertices)), 1.0, "REPLACE")
 modifier = mesh.modifiers.new("Armature", "ARMATURE")

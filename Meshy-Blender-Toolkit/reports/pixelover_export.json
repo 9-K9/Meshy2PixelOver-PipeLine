@@ -1,0 +1,92 @@
+{
+  "output": "/tmp/mbt_op/Kitsune_op.glb",
+  "armature": "Armature",
+  "bone_count": 65,
+  "source_actions": [
+    "Capoeira"
+  ],
+  "skipped_actions": [
+    "Armature|mixamo.com|Layer0"
+  ],
+  "action_bone_warnings": {},
+  "glb": {
+    "glb_version": 2,
+    "declared_bytes": 11751140,
+    "actual_bytes": 11751140,
+    "nodes": 67,
+    "skins": 1,
+    "meshes": 1,
+    "materials": 1,
+    "images": 2,
+    "external_images": [],
+    "animations": [
+      "Capoeira"
+    ],
+    "animation_details": [
+      {
+        "name": "Capoeira",
+        "channels": 195,
+        "seconds": 3.433
+      }
+    ]
+  },
+  "audit": {
+    "auto_fixed": [
+      {
+        "what": "root travel removed (in place)",
+        "where": "Capoeira",
+        "metres": 1.38
+      }
+    ],
+    "needs_manual": [
+      {
+        "what": "more than 4 bone influences",
+        "where": "output_unwrapped",
+        "vertices": 82,
+        "severity": "info",
+        "fix": "the GLB exporter keeps the strongest 4; only matters if those vertices look wrong"
+      },
+      {
+        "what": "mesh stretches during clip",
+        "where": "output_unwrapped / Capoeira",
+        "vertices": 108,
+        "group": "MBT_Stretch",
+        "bones": {
+          "mixamorig:Hips": {
+            "vertices": 34,
+            "worst_stretch": 2.53,
+            "frame": 76
+          },
+          "mixamorig:Spine": {
+            "vertices": 19,
+            "worst_stretch": 2.33,
+            "frame": 29
+          },
+          "mixamorig:LeftUpLeg": {
+            "vertices": 14,
+            "worst_stretch": 3.08,
+            "frame": 95
+          },
+          "mixamorig:LeftArm": {
+            "vertices": 7,
+            "worst_stretch": 2.02,
+            "frame": 29
+          },
+          "mixamorig:RightShoulder": {
+            "vertices": 6,
+            "worst_stretch": 2.72,
+            "frame": 67
+          },
+          "mixamorig:RightUpLeg": {
+            "vertices": 6,
+            "worst_stretch": 2.34,
+            "frame": 95
+          }
+        },
+        "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+      }
+    ]
+  },
+  "in_place": true,
+  "pixelover_status": "Audited and verified (textures embedded, skin, keyed animations); check the look in PixelOver"
+}

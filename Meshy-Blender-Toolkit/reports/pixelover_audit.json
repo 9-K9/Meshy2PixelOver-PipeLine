@@ -1,0 +1,26 @@
+{
+  "rig": "MixamoRig",
+  "meshes": [
+    "TestBody"
+  ],
+  "clips": [
+    "Idle",
+    "Walk"
+  ],
+  "auto_fixed": [],
+  "needs_manual": [
+    {
+      "what": "weights far from their bone",
+      "where": "TestBody",
+      "vertices": 8,
+      "bones": {
+        "mixamorig:Hips": 8
+      },
+      "group": "MBT_FarWeights",
+      "fix": "usually hair or cloth riding on a body bone; if it swings wrongly, give it its own bones (add_extra_bones) or repaint it to the closer bone"
+    }
+  ],
+  "clean": false,
+  "export_blockers": [],
+  "source": "/tmp/tmp.iKhzQFY4Aw/extra.blend"
+}

@@ -10,6 +10,7 @@ import bpy
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from pipeline_common import (absolute, armatures, default_report, import_model, meshes, object_height,
                              reset_scene, save_report, script_args, select_only)
+from audit_animations import fix_textures
 
 
 def main():
@@ -66,12 +67,13 @@ def main():
                 modifier.object = rig
         rig.animation_data_clear()
 
-    for image in bpy.data.images:
-        if image.source == "FILE" and not image.packed_file and image.filepath:
-            try:
-                image.pack()
-            except RuntimeError:
-                print(f"WARNING: could not pack texture {image.filepath}")
+    # Pack textures; ones Mixamo linked to another machine's path are recovered from assets/ by name.
+    texture_fixes, texture_problems = [], []
+    fix_textures(character_meshes, texture_fixes, texture_problems, [source.parent])
+    for item in texture_fixes:
+        print(f"FIXED  {item['what']}: {item['where']} ({item.get('detail', '')})")
+    for item in texture_problems:
+        print(f"WARNING: {item['what']}: {item['where']} -> {item['fix']}")
 
     # Material slots remain untouched so skin/hair/clothing can be recoloured independently.
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -82,6 +84,7 @@ def main():
         "original_height": original_height, "target_height": args.target_height or None,
         "materials": {obj.name: [slot.name for slot in obj.material_slots] for obj in character_meshes},
         "rest_pose_changed": args.apply_current_pose_as_rest,
+        "textures_fixed": texture_fixes, "texture_problems": texture_problems,
     })
     print(f"POST_MIXAMO_OK {output}")
 

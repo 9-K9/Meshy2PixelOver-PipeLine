@@ -1,0 +1,67 @@
+{
+  "rig": "Armature",
+  "meshes": [
+    "output_unwrapped"
+  ],
+  "clips": [
+    "Capoeira"
+  ],
+  "auto_fixed": [
+    {
+      "what": "root travel removed (in place)",
+      "where": "Capoeira",
+      "metres": 1.38
+    }
+  ],
+  "needs_manual": [
+    {
+      "what": "more than 4 bone influences",
+      "where": "output_unwrapped",
+      "vertices": 82,
+      "severity": "info",
+      "fix": "the GLB exporter keeps the strongest 4; only matters if those vertices look wrong"
+    },
+    {
+      "what": "mesh stretches during clip",
+      "where": "output_unwrapped / Capoeira",
+      "vertices": 108,
+      "group": "MBT_Stretch",
+      "bones": {
+        "mixamorig:Hips": {
+          "vertices": 34,
+          "worst_stretch": 2.53,
+          "frame": 76
+        },
+        "mixamorig:Spine": {
+          "vertices": 19,
+          "worst_stretch": 2.33,
+          "frame": 29
+        },
+        "mixamorig:LeftUpLeg": {
+          "vertices": 14,
+          "worst_stretch": 3.08,
+          "frame": 95
+        },
+        "mixamorig:LeftArm": {
+          "vertices": 7,
+          "worst_stretch": 2.02,
+          "frame": 29
+        },
+        "mixamorig:RightShoulder": {
+          "vertices": 6,
+          "worst_stretch": 2.72,
+          "frame": 67
+        },
+        "mixamorig:RightUpLeg": {
+          "vertices": 6,
+          "worst_stretch": 2.34,
+          "frame": 95
+        }
+      },
+      "fix": "scrub to the frame and Weight Paint the listed bone's area smoother; small stretch at armpits/hips is normal"
+    }
+  ],
+  "clean": false,
+  "export_blockers": [],
+  "source": "/home/emanzi/3D/Meshy Blender Toolkit/Meshy-Blender-Toolkit/work/Kitsune_animated.blend"
+}

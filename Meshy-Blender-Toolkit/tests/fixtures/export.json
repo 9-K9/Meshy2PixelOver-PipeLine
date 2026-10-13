@@ -1,0 +1,25 @@
+{
+  "output": "/home/emanzi/3D/Blender 4.5/Meshy-Blender-Toolkit/tests/fixtures/pixelover.glb",
+  "armature": "MixamoRig",
+  "bone_count": 2,
+  "source_actions": [
+    "Idle",
+    "MixamoRig|Scene",
+    "Walk"
+  ],
+  "action_bone_warnings": {},
+  "glb": {
+    "glb_version": 2,
+    "declared_bytes": 7396,
+    "actual_bytes": 7396,
+    "nodes": 4,
+    "skins": 1,
+    "meshes": 1,
+    "animations": [
+      "Idle",
+      "MixamoRig|Scene",
+      "Walk"
+    ]
+  },
+  "pixelover_status": "Structural validation passed; visual playback must still be checked in PixelOver"
+}

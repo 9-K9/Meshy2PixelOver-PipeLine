@@ -1,0 +1,10 @@
+{
+  "mode": "chain",
+  "head_bone": "mixamorig:Head",
+  "changed": [
+    "HairExtra.001",
+    "HairExtra.002"
+  ],
+  "manual_weighting_required": true,
+  "output": "/home/emanzi/3D/Blender 4.5/Meshy-Blender-Toolkit/tests/fixtures/with_hair_chain.blend"
+}

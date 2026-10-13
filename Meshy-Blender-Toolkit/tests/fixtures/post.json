@@ -1,0 +1,13 @@
+{
+  "source": "/home/emanzi/3D/Blender 4.5/Meshy-Blender-Toolkit/tests/fixtures/character.fbx",
+  "output": "/home/emanzi/3D/Blender 4.5/Meshy-Blender-Toolkit/tests/fixtures/master.blend",
+  "armature": "MixamoRig",
+  "bones": 2,
+  "mixamorig_prefixed_bones": 2,
+  "original_height": 2.000000032584154,
+  "target_height": null,
+  "materials": {
+    "TestBody": []
+  },
+  "rest_pose_changed": false
+}

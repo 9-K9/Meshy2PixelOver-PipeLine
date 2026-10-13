@@ -1,0 +1,17 @@
+# Meshy2Mixamo Blender 4.5 Pipeline
+
+Tools for taking a Meshy (or VRoid) character through
+**Meshy → Blender → Mixamo → Blender → PixelOver**, fixing rest-pose mismatches
+and lost bones along the way.
+
+- Toolkit, scripts, tests and guides: [`Meshy-Blender-Toolkit/`](Meshy-Blender-Toolkit/README.md)
+- Start with [`USER_GUIDE.md`](Meshy-Blender-Toolkit/USER_GUIDE.md)
+
+## Setup
+
+1. Download the portable **Blender 4.5.13 LTS** (Linux x64) from blender.org and
+   extract it next to `Meshy-Blender-Toolkit/` so the folder is
+   `blender-4.5.13-linux-x64/`. It is git-ignored; the launcher scripts expect it there.
+2. Optional: symlink `Meshy-Blender-Toolkit/meshy_blender_toolkit` into
+   `~/.config/blender/4.5/scripts/addons/` and enable it in Blender.
+3. Verify: `Meshy-Blender-Toolkit/tests/run_pipeline_test.sh`

@@ -1,0 +1,12 @@
+{
+  "source": "/home/emanzi/3D/Blender 4.5/Meshy-Blender-Toolkit/tests/fixtures/meshy_source.glb",
+  "output": "/home/emanzi/3D/Blender 4.5/Meshy-Blender-Toolkit/tests/fixtures/prepared.fbx",
+  "removed_armatures": 1,
+  "meshes": [
+    "TestBody",
+    "Icosphere"
+  ],
+  "height_m": 4.0,
+  "facing_assumption": "+Y in Blender; verify visually before upload",
+  "t_pose": "NOT automated; verify arms and legs are separated before Mixamo"
+}

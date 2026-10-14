@@ -22,8 +22,8 @@ import bpy
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from audit_animations import audit
-from pipeline_common import (absolute, action_bone_names, armatures, default_report, meshes, save_report,
-                             script_args, select_only)
+from pipeline_common import (TPOSE_ACTION_NAME, absolute, action_bone_names, add_tpose_action, armatures,
+                             default_report, meshes, save_report, script_args, select_only)
 
 
 def glb_summary(path: Path):
@@ -83,6 +83,8 @@ def main():
         (("--sampling-rate",), {"type": int, "default": 1}),
         (("--all-actions",), {"action": "store_true",
                                "help": "Also export untagged actions (e.g. the leftover T-pose clip)"}),
+        (("--no-tpose",), {"action": "store_true",
+                           "help": "Do not add the ArmatureTPose rest-pose clip (added by default)"}),
         (("--keep-root-motion",), {"action": "store_true",
                                    "help": "Keep clips travelling; by default they are made In Place for sprites"}),
         (("--allow-manual",), {"action": "store_true",
@@ -129,6 +131,9 @@ def main():
             bpy.data.actions.remove(action)
     elif not tagged:
         print("WARNING: no clips tagged by batch_import_animations.py; exporting every action")
+    if not args.no_tpose:
+        add_tpose_action(rig)
+        print(f"ADDED T-pose rest clip: {TPOSE_ACTION_NAME}")
     action_warnings = {}
     for action in bpy.data.actions:
         missing = sorted(action_bone_names(action) - bone_names)

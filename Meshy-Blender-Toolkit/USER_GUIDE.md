@@ -246,6 +246,10 @@ Stretching and far weights are only warnings: judge them by eye.
 Only clips tagged by the import or audit are exported (leftover pose clips are
 skipped; use `--all-actions` to include everything).
 
+Every export also gets an **`ArmatureTPose`** clip: all bones at their rest
+transform, i.e. the skeleton's T-pose. In PixelOver, pick it as the rest animation
+so Rest mode shows a T-pose. Pass `--no-tpose` to leave it out.
+
 After writing, the GLB is read back and must contain one skin, a mesh, a material,
 **embedded** textures (no external files), and at least one animation with real
 keyframes, or the export fails. The report (`reports/pixelover_export.json`) lists

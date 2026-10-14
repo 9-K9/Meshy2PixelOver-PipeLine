@@ -169,6 +169,39 @@ def bind_action(action, rig):
     return slot
 
 
+TPOSE_ACTION_NAME = "ArmatureTPose"
+
+
+def add_tpose_action(rig, name: str = TPOSE_ACTION_NAME):
+    """Add a clip holding every pose bone at its rest transform (the skeleton's T-pose), so
+    PixelOver can use it as the rest animation. Replaces any existing clip of that name."""
+    old = bpy.data.actions.get(name)
+    if old is not None:
+        for track in [t for t in (rig.animation_data.nla_tracks if rig.animation_data else [])
+                      if any(s.action == old for s in t.strips)]:
+            rig.animation_data.nla_tracks.remove(track)
+        bpy.data.actions.remove(old)
+    if rig.animation_data is None:
+        rig.animation_data_create()
+    previous = rig.animation_data.action
+    action = bpy.data.actions.new(name)
+    rig.animation_data.action = action
+    for bone in rig.pose.bones:
+        bone.location = (0.0, 0.0, 0.0)
+        bone.rotation_mode = "QUATERNION"
+        bone.rotation_quaternion = (1.0, 0.0, 0.0, 0.0)
+        bone.scale = (1.0, 1.0, 1.0)
+        for frame in (1, 2):  # two keys so the exporter keeps a real duration
+            bone.keyframe_insert("location", frame=frame)
+            bone.keyframe_insert("rotation_quaternion", frame=frame)
+            bone.keyframe_insert("scale", frame=frame)
+    rig.animation_data.action = previous
+    action.use_fake_user = True
+    action["mbt_clip"] = True
+    ensure_clip_strip(action, rig)
+    return action
+
+
 def ensure_clip_strip(action, rig):
     """One muted NLA track per clip, with the clip's slot assigned. Returns a list of fixes made."""
     fixes = []

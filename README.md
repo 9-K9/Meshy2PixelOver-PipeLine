@@ -1,4 +1,4 @@
-# Meshy2Mixamo Blender 4.5 Pipeline
+# Meshy2PixelOver Pipeline
 
 Tools for taking a Meshy (or VRoid) character through
 **Meshy → Blender → Mixamo → Blender → PixelOver**, fixing rest-pose mismatches

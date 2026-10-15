@@ -1,5 +1,9 @@
 # Meshy2PixelOver Pipeline
 
+**Primary source repository:** [9-K9/Meshy2PixelOver-PipeLine](https://github.com/9-K9/Meshy2PixelOver-PipeLine).
+All ongoing development and updates belong here. The legacy
+`rpg2k3/Meshy2Mixamo-Blender-4.5-Pipeline` repository is archived.
+
 Tools for taking a Meshy (or VRoid) character through
 **Meshy → Blender → Mixamo → Blender → PixelOver**, fixing rest-pose mismatches
 and lost bones along the way.

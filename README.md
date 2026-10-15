@@ -12,6 +12,10 @@ The game using characters from this pipeline is
 - Toolkit, scripts, tests and guides: [`Meshy-Blender-Toolkit/`](Meshy-Blender-Toolkit/README.md)
 - Start with [`USER_GUIDE.md`](Meshy-Blender-Toolkit/USER_GUIDE.md)
 
+## Mixamo animations download
+
+[Download all Mixamo animations (Mixamo.zip)](https://www.dropbox.com/scl/fi/u10dpk34rfgmscs9hzp5p/Mixamo.zip?rlkey=msu06h5fqinfp92jeg8mizjtu&st=4438hcmh&dl=0)
+
 ## Setup
 
 1. Download the portable **Blender 4.5.13 LTS** (Linux x64) from blender.org and

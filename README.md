@@ -4,6 +4,11 @@ Tools for taking a Meshy (or VRoid) character through
 **Meshy → Blender → Mixamo → Blender → PixelOver**, fixing rest-pose mismatches
 and lost bones along the way.
 
+## Related repository
+
+The game using characters from this pipeline is
+[KatanaKitsune](https://github.com/9-K9/KatanaKitsune).
+
 - Toolkit, scripts, tests and guides: [`Meshy-Blender-Toolkit/`](Meshy-Blender-Toolkit/README.md)
 - Start with [`USER_GUIDE.md`](Meshy-Blender-Toolkit/USER_GUIDE.md)
 
